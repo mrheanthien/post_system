@@ -1,0 +1,84 @@
+#pl-message-custom-message{
+	overflow: auto !important;
+}
+
+#pl-message-confirm-message{
+	font-size: 16px;
+	font-weight: bold;
+}
+.w-tool .dd {
+	width:237px !important;
+}
+
+.w-mapped {
+	margin-bottom:10px;
+}
+
+.tb-household, .tb-members {
+	width:100%;
+}
+
+.tb-household {
+	border:1px solid #ccc;
+	background:#f6f6f6;
+	cursor:pointer;
+	border-collapse:collapse;
+}
+
+.td-space{
+	width: 245px;
+	font-size: 11px;
+}
+
+.tb-household .cur_hh{
+	width:275px;
+	padding-left:0px;
+}
+
+.tb-household .ref_hh {
+	width:140px;
+	padding-left:0px;
+}
+
+.tb-household .cur_round, .ref_round, .cur_cat, .ref_cat{
+	width:20px;
+	text-align:center;
+}
+
+.tb-household .td-map {
+	width:50px;
+	text-align:center;
+}
+
+.tb-household .gaz {
+	width:auto;
+	padding-left:5px;
+	font-size: 11px;
+}
+
+.w-members {
+	width: 95%;
+	margin-left:25px;	
+	margin-top:-1px;
+}
+
+.tb-members {
+	border-collapse:collapse;
+}
+
+.tb-members td {
+	border:1px solid #ccc;
+	padding:3px 10px;
+}
+
+.m-name { width: 30%; }
+.m-sex, .m-age { width: 5%; text-align: center; }
+
+.m-off-on{
+	width: 5%;
+}
+
+.add-by{
+	text-align: right;
+	padding-right: 5px;	
+}

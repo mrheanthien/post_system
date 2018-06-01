@@ -1,0 +1,30 @@
+.w-external-tool {
+	margin-top:30px;
+}
+
+.tool {
+	border:1px solid #ddd;
+	padding:15px;
+	margin-bottom:20px;
+}
+
+.logo {
+	text-align:left;
+}
+
+.we-left {
+	display:inline-block;
+	vertical-align:top;
+	width:128px;
+}
+
+.we-right {
+	display:inline-block;
+	vertical-align:top;
+	padding:0 0 0 20px;
+	width:775px;
+}
+
+.title {
+	margin:0 0 10px 0;
+}

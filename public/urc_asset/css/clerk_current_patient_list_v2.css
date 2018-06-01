@@ -1,0 +1,45 @@
+#start, #end {
+	height:35px;
+	width:225px;
+}
+#head_title {
+	font-size:18px; 
+	width:100%; 
+	border-bottom:1px solid #ccc; 
+	clear: both;
+}
+.search{
+	float:right; 
+	width: 100%; 
+	clear: both;
+	margin: 15px 0px;
+	text-align: right;
+}
+.red{
+	color: #F00;	
+}
+.green {
+	color:#0F0;	
+}
+.tb_silver .note, 
+.tb_silver .note:hover{
+	background: #CCC;	
+}
+.bt_blue, .bt-blue {
+    height: 31px;
+    line-height: 0;
+}
+#ward {
+	height:35px;
+	width: 225px;
+}
+
+#filter, #excel{
+	valign:bottom;
+	height:35px;
+	margin-top:20px;
+}
+
+#current-patient-list td{
+	font-size:12px;
+}

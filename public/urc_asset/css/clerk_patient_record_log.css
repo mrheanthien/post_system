@@ -1,0 +1,54 @@
+.option-box {
+	width:300px;
+	padding:20px 30px;
+	margin:0 15px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	display:inline-block;
+}
+
+.option-box .title {
+	margin:0 0 20px 0;
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+
+.option-box .dd {
+	width:100%;
+}
+
+.option-box .tb-field {
+	width:100%;
+}
+
+
+
+.option-box .tb-field td:nth-child(1) {
+	width:25%;
+}
+
+.option-box .tf {
+	width:100%;
+}
+
+.w-buttons {
+	text-align:center;
+	margin-top:20px;
+}
+
+.option-box .tb-field td {
+	padding:4px 0;
+}
+
+.option-box label {
+	cursor:pointer;
+}
+
+.ico-detail {
+	width:20px;
+	cursor: pointer;
+}
+
+.center {
+	text-align:center;
+}

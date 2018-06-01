@@ -1,0 +1,91 @@
+.address option {
+	margin-bottom:5px;
+}
+
+#add_village {
+	margin: 0px 10px 10px 10px;
+	
+}
+
+#content_div {
+	font-size: 14px;
+	width:905px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title_div {
+	font-size:16px;
+	font-weight:bold;
+	color:#666;
+	margin-bottom:10px;
+}
+
+.address {
+	line-height: 35px;
+	padding: 0px 0px;
+	width: 190px;	
+	float:right;
+	font-size: 14px;
+}
+
+.icons {
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	width: 18px;
+}
+
+.pophead {
+	color:#333;	
+}
+
+.popup {
+	background:#fff;
+	width:380px;
+	display:none;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 0 5px #CCCCCC;
+	z-index:100000;
+	padding: 25px 25px 25px 25px;
+}
+
+.dd {
+	margin: 5px 10px 15px;	
+}
+
+.row_control {
+	text-align: center;
+}
+
+.tfedit {
+	border:1px solid #999;
+	width:169px;
+	padding:3px 10px; 
+	/*height:20px;*/
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	outline-style:none;
+	float:right;
+}
+
+.tf_padder td {
+	padding: 5px 0 5px 0;	
+}
+
+#village_name {
+	height:25px; 
+	font-size:16px;
+	cursor:default;
+}
+
+.poptf {
+	float:right;	
+}
+
+.pop_line{
+	line-height:31px;
+	vertical-align:middle;
+	padding:5px 0px;	
+}

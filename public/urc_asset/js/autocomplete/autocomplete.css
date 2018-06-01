@@ -1,0 +1,37 @@
+#searchField {
+	width: 200px;
+}
+
+#results, .ac-item {
+	border-top: 1px solid #666;
+	border-bottom: 0px;
+	font-size: 16px;
+	font-family: arial;
+	padding: 0px;
+	display: none;
+	width:550px;
+	height:250px;
+	overflow:auto;
+	overflow-x: hidden;	
+	z-index:999;
+}
+
+#results div,.ac-item div {
+    border-bottom: 1px solid #666;
+    padding: 3px;
+	background:#CCC;
+	z-index:999;
+}
+
+#results .selected, .ac-item .selected {
+	cursor:pointer;
+	background-color: #666;
+	color: #fff;
+}
+
+#results .unselected, .ac-item .unselected {
+	cursor:pointer;
+	background-color: #fff;
+	color: #666;
+}
+

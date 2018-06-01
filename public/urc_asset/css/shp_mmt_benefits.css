@@ -1,0 +1,93 @@
+.w-info {
+	border:1px solid #ccc;
+}
+
+.w-left {
+	width:250px;
+	float:left;
+}
+
+.w-benefits {
+	margin-left:280px;
+}
+
+.w-err {
+	text-align:center;
+	font-size:14px;
+	margin-top:100px;
+}
+
+.w-err p {
+	margin:0px;
+}
+
+.w-photo {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.w-vid, .w-pid {
+	padding:10px 0;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.w-pid { 
+	background:#f6f6f6; 
+	border-bottom:1px solid #ccc;
+}
+
+.info {
+	margin: 10px 15px;
+}
+
+.w-benefits {
+	min-height:620px;
+}
+
+.w-benefits .tf {
+	box-sizing:border-box;
+	height:34px;
+}
+.w-benefits .tf, .w-benefits .dd {
+	width:100% !important;
+}
+
+.tb-benefit td, .tb-history td {
+	padding:3px 5px;
+}
+
+.a-right {
+	text-align:right;
+}
+
+.w-buttons {
+	margin-top:20px;
+}
+.tb-history {
+	width:80%;
+}
+
+.add-ico, .remove-ico {
+	width:100%;
+	cursor:pointer;
+}
+
+.w-ico {
+	float:right;width:30px;margin-top:3px;
+}
+.w-service {
+	margin-right:40px;
+}
+.services {
+	margin-bottom:5px;
+}
+.services:last-child {
+	margin-bttom:0px;
+}
+
+.w-delete {
+	margin-top:20px;
+	text-align:center;
+}

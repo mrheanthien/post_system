@@ -1,0 +1,40 @@
+.tb_none tr{
+	line-height:40px;
+}
+
+.sep {
+	margin:0 10px;
+}
+
+.ico_pdf_20 {background:no-repeat 0 -20px url(../images/ico_set_20.jpg);}
+.ico_excel_20 {background:no-repeat 0 0 url(../images/ico_set_20.jpg);}
+.ico_image_20 {background:no-repeat -20px 0 url(../images/ico_set_20.jpg);}
+.ico_word_20 {background:no-repeat -20px -20px url(../images/ico_set_20.jpg);}
+
+.ico_pdf_16 {background:no-repeat 0 -16px url(../images/ico_set_16.jpg);}
+.ico_excel_16 {background:no-repeat 0 0 url(../images/ico_set_16.jpg);}
+.ico_image_16 {background:no-repeat -16px 0 url(../images/ico_set_16.jpg);}
+.ico_word_16 {background:no-repeat -16px -16px url(../images/ico_set_16.jpg);}
+
+.w_ico_16 {
+	margin-top:3px;
+	margin-right:5px;
+	float:left;
+	width:16px;
+	height:16px;
+	box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	-moz-box-shadow: 0 0 3px #999999;
+}
+
+.w_ico_20 {
+	margin-top:3px;
+	margin-right:5px;
+	float:left;
+	width:20px;
+	height:20px;
+	box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	-moz-box-shadow: 0 0 3px #999999;
+}
+

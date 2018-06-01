@@ -1,0 +1,117 @@
+.shp-certification-moh-list .icon {
+	font-size:16px;
+	margin:0 4px;
+}
+
+.shp-certification-moh-list #tb-list th {
+	
+}
+
+
+
+.shp-certification-moh-list  .w-tools {
+	margin-bottom:15px;
+}
+
+.calendar {
+	width:100%;
+}
+
+.w-buttons {
+	text-align:right;
+	margin-top:15px;
+}
+
+
+
+.w-buttons .btn {
+	width:140px;
+	margin:0 4px;
+}
+
+.w-buttons .btn:last-child {
+	margin-right:0;
+	width:190px;
+}
+
+.detail-view:hover td {
+	background-color:#fff !important;
+}
+
+th.col_sub_invoice_date {
+	width:250px;
+}
+
+th.col_sub_total {
+
+}
+
+td.col_sub_invoice_date {
+	text-align:center;
+}
+
+
+td.col_sub_total {
+	text-align:right;
+}
+
+td.col_sub_action {
+	text-align:center;
+}
+
+.detail-view td td {
+	padding:4px 8px !important;
+}
+
+.detail-view td th {
+	padding:0px !important;
+}
+
+.detail-view td th .th-inner {
+	padding:4px 8px !important;
+}
+
+
+th.col-ref {
+	width:auto;
+}
+
+th.col-total {
+	width:150px;
+}
+
+th.col-submit-date {
+	width:150px;
+}
+
+th.col-system-save-date {
+	width:150px;
+}
+
+th.col-system-submit-date {
+	width:150px;
+}
+
+th.col-submission {
+	width:150px;
+}
+
+th.col-transfer-date {
+	width:150px;
+}
+
+th.col-value-date {
+	width:150px;
+}
+
+th.col-action {
+	width:150px;
+}
+
+td.col-action, td.col-system-submit-date, td.col-system-save-date, td.col-submit-date, td.col-submission, td.col-transfer-date, td.col-value-date {
+	text-align:center;
+}
+
+td.col-total {
+	text-align:right;
+}

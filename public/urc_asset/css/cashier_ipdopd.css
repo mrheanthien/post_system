@@ -1,0 +1,411 @@
+/*================================ Add By Chea Sopheak ============================== */
+.td3{
+	width:57px !important;
+	border-right: medium none !important;
+}
+.td4{
+	border-right: medium none !important;
+    width: 35px !important;
+}
+.b_menu{
+	margin-bottom:10px !important;
+}
+.b_footer{
+	margin-top:0px !important;
+}
+
+.receipt{
+	margin:0px;
+}
+
+.popup_default{
+    left: 45% !important;
+    position: fix !important;
+    width: auto !important;
+    z-index: 10000 !important;
+	background:#fff;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 0 5px #CCCCCC;
+	z-index:100000;
+
+}
+.btn-setting{
+	background-color: #424f63;
+    border-color: #374152;
+    color: #ffffff;
+	padding:7px 5px !important;
+}
+
+.btn-setting:hover{
+	background-color: #374152;
+    border-color: #2e3644;
+    color: #FFFFFF !important;
+}
+
+
+.headline{
+	font-weight:bold !important;
+}
+
+.payout{
+	padding:0px !important;
+	font-size:12px !important;
+}
+
+#msg_cancel{
+	margin-right:0px !important;
+}
+.not-owed{
+	text-decoration:line-through;
+	color:#090;
+}
+
+.owed{
+	color:#F00;
+}
+
+.owed_head td{
+	font-weight:bold;
+}
+
+.popup{
+	left:195px !important;
+	width: 960px !important;
+	z-index:10000 !important;
+	position:absolute !important;
+}
+
+
+.payout{
+	padding:0px !important;
+	font-size:12px !important;
+}
+
+#msg_cancel{
+	margin-right:0px !important;
+}
+.not-owed{
+	text-decoration:line-through;
+	color:#090;
+}
+
+.owed{
+	color:#F00;
+}
+
+.owed_head td{
+	font-weight:bold;
+}
+
+.popup{
+	left:195px !important;
+	width: 960px !important;
+	z-index:10000 !important;
+	position:absolute !important;
+}
+
+.service-quantity{
+	text-align:center !important;
+}
+
+.tf-price-inact{
+	background:none !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+.tf-price-act{
+	background:none !important;
+	border:1px solid #ccc;
+}
+
+/*======================================================================================*/
+.patient_detail{
+	margin-left:260px;
+}
+
+.ward_service{
+	width:100%;
+}
+
+.photo{
+	width:250px;
+	float:left;
+}
+
+.photo img{
+	width:250px;
+	height:220px;
+	border:1px solid #ccc;
+	clear:left;
+}
+
+.services_div {
+	overflow:auto; 
+	height:537px; 
+	box-shadow:0 0 2px #CCCCCC inset;
+}
+
+.w_service {
+	margin-bottom:25px;
+	border:1px solid #ccc;
+}
+
+.services_div select option {
+	cursor: pointer;
+	margin: 0 0 0 5px;
+	line-height:22px;
+	list-style-type:disc;
+	list-style-position:outside;
+	padding:8px;
+	border-bottom:1px solid #ddd;
+	display:block;
+}
+
+.services_div select option:last-child {
+	border-bottom:none;
+}
+
+.services_div select option:hover {
+	background:#f1f1f1;
+}
+
+.ward_buttons {
+	margin:0;
+	width: 110px;
+	font-size:16px;
+	float:left;
+}
+
+.pricebox {
+	color: #0C0;
+	font-size: 13px;
+	text-align:right;
+	padding-right:10px;
+	width:20%;
+}
+
+.payment_table_box {
+	clear:left;
+	width:100%;
+}
+
+#ward_services {
+	font-size: 12px;
+	padding-left:0px;
+	margin:0;
+	height:485px;
+	border:none !important;
+	box-shadow: none !important;
+	border-radius: none !important;
+}
+
+#back_button {
+	width:100px;
+	margin: 0px;
+	float:right;
+}
+
+#payment_table, #history_table {
+	border-collapse:collapse; 
+	width:100%;
+	border:1px solid #ccc;
+}
+
+
+#total_table {
+	width: 100%;	
+	border-collapse:collapse;
+}
+
+#total_table_div {
+	width:100%;
+}
+#total_table td {
+	border: 1px solid #ccc;
+}
+
+.tdicon {
+	padding: 0 5px;
+	cursor: pointer; 
+	vertical-align: middle;
+}
+
+#patient_info ul{
+	list-style:none;
+	font-size:20px;
+	color:#333;
+	line-height:20px;
+	width:270px;
+}
+
+
+.pid{
+    text-align: center;
+    width: 100%;
+	font-size:16px;
+	border:1px solid #ccc;
+	line-height:40px;
+	color:#333;
+	margin:0px;
+}
+
+.ul_pinfo li {
+	line-height:40px;
+}
+
+.tb_silver {
+	border-collapse:collapse;
+}
+
+.show-body {
+	overflow-y: scroll;
+	height:300px;
+	border:1px solid #ccc;
+}
+
+.show-head table {
+	margin-bottom:-1px;
+}
+
+.show-body table {
+	margin-top:-1px;
+	margin-left:-1px;
+}
+
+td img {
+	margin:0 3px;
+	cursor:pointer;
+}
+
+.tr-main td {
+	border-bottom:0;
+}
+
+.tr-sub td {
+	border-top:0;
+	border-bottom:0;
+}
+
+#history_table .td1, #history_table .td2, #history_table .td3, #tb-invoice .td1, #tb-invoice .td2, #tb-invoice .td3 {
+	text-align:right;
+	font-size:14px;
+}
+
+/*#tb-invoice .td3, #history_table .td3{
+	width: 81px;	
+}*/
+
+
+.cashier {
+	margin-top:10px;
+}
+
+.cashier .w-toggle {
+	width:100%;
+}
+
+.cashier .w-toggle input {
+	width:50%;
+}
+
+.cashier .tb-info {
+	border:none;
+	border-collapse:collapse;
+}
+
+.cashier .tb-info td {
+	padding:4px 0;
+}
+
+.cashier .b-payment {
+	clear:left;
+	padding-top:25px;
+}
+
+.cashier .tb-payment th {
+	line-height:30px !important;
+}
+
+.cashier .tb-history-body td {
+	padding:2px 7px;
+}
+
+.cashier .tools {
+	margin-bottom:10px;
+}
+
+.cashier .tools .left {
+	float:left;
+}
+
+.cashier .tools .right {
+	float:right;
+}
+
+.cashier .td-right {
+	text-align:right;
+}
+
+.cashier .w-discount {
+	display:inline-block;vertical-align: top;margin-right:5px;
+}
+
+.cashier .tf-discount {
+	width:85px;display:inline-block;box-sizing: border-box;-moz-box-sizing: border-box; -webkit-box-sizing: border-box;text-align:right;font-size:14px;
+}
+
+.cashier #tb-total {
+	text-align:right;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.cashier #tb-total .tn {
+	font-size:14px;
+	padding:8px 10px;
+	width:200px;
+	border:1px solid #ccc;
+}
+
+.cashier #tb-total .tl {
+	padding-right:20px;
+}
+
+.cashier .tf-payment {
+	text-align:right;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	border:none !important;
+	background:none !important;
+	box-shadow:none !important;
+	font-weight:bold;
+	padding-right:7px;
+}
+
+.cashier #tf-discount, .cashier #tf-total {
+	padding-right:7px;
+}
+
+.cashier .amb-field {
+	margin-bottom:5px;
+	line-height:24px;
+}
+
+.cashier .amb-field input {
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	height:35px;
+}
+
+.cashier #services .td1 input,.td2 input {
+	width:100% !important;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	height:26px;
+	text-align:right;
+}
+
+

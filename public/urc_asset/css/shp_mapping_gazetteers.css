@@ -1,0 +1,71 @@
+.w-map {
+	margin:20px auto 0;
+	width:810px;
+}
+.shp-mapping-gazetteers .tb-option {
+	width:100%;
+	
+}
+.shp-mapping-gazetteers .tb-option td {
+	vertical-align:bottom;
+}
+
+.shp-mapping-gazetteers .tb-option td div {
+	margin-top:10px;
+}
+.shp-mapping-gazetteers .tb-option .dd {
+	width:100%;
+	
+}
+
+.shp-mapping-gazetteers .tb-option2 {
+	width:100%;
+	
+}
+
+.shp-mapping-gazetteers .tb-option2 td {
+	padding:5px 0;
+	vertical-align:middle;
+}
+
+.tb-duallist {
+	width:100%;
+}
+
+.tb-duallist .dd {
+	height:250px;
+	width:100%;
+}
+
+.tb-duallist .his {
+	height:115px;
+	border:1px solid #ccc;
+	padding:5px;
+	overflow-y:scroll;
+}
+
+.tb-duallist .his div {
+	padding:4px 5px;
+	text-align:left !important;
+}
+
+.tb-duallist .his .cod {
+	background:#f3f3f3;
+}
+
+.tb-duallist .dualnav {
+	width:100%;
+}
+
+.tb-duallist td {
+	text-align:center;
+}
+
+.w-buttons {
+	text-align:center;
+	margin-top:20px;
+}
+
+.mapped {
+	background:#eee;
+}

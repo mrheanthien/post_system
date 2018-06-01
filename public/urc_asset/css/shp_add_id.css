@@ -1,0 +1,178 @@
+.check {
+	transform:checkbox;
+}
+
+.fit_right {
+	text-align:right;
+	width:50%;
+}
+
+.fit_left {
+	text-align:left;
+	width:50%;
+}
+
+.dd {
+	width:250px;
+}
+
+.tf {
+	width:238px;
+}
+
+.h {
+	margin-bottom:15px;
+	width:280px;
+}
+
+.h label{
+	float:none !important;
+}
+.level {
+	width:30px;
+	height:30px;
+	border:1px solid #999;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	text-align:center;
+	line-height:30px;
+	
+}
+.t2 td {
+	padding:5px;
+}
+.camera {
+	display:none;
+}
+
+.webcam {
+	width:390px;
+	height:280px;
+	border:1px solid #999;
+	text-align:center;
+}
+
+.webcam_m {
+	width:250px;
+	height:180px;
+	border:1px solid #999;
+	text-align:center;
+}	
+
+.option {
+	margin-bottom:10px;
+	text-align:right;
+}
+
+#picture_screen {
+
+}
+
+.browse_text {
+	padding:7px 5px;
+	width:150px;
+	margin:auto;
+}
+
+.browse_text:hover {
+	background:#EAEAEA;
+	color:#D20000;
+}
+
+label {
+	float:none;
+	margin:0px;
+}
+#lbl_img2 {
+	line-height:0;
+}
+.upload {
+	float:left;
+	overflow: hidden;
+	position: relative;
+	height:64px;
+}
+.snap {
+	position:relative;
+	display:none;
+	background:#fff;
+	height:45px;
+	width:79px;
+	cursor:pointer;
+	visibility:hidden;
+}
+
+.upload:hover {
+	background:#ddd;
+}
+
+.file {
+	 -moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	-moz-transform: translate(-300px, 0pt) scale(4);
+	border-color: transparent;
+	border-style: solid;
+	border-width: 0 0 100px 200px;
+	cursor: pointer;
+	direction: ltr;
+	height: 28px;
+	margin-right: 200px;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+	top: 0;
+	width: 100px;
+}
+.lbl_img {
+	display: block;
+	font-size: 14px;
+	height: 100%;
+	line-height: 28px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.w_img {
+	height:220px;
+	width:250px;
+	border:1px solid #ccc;
+}
+
+.w_img:hover .img_back, .w_img:hover .snap {
+	visibility:visible;
+}
+
+.img_back {
+	box-shadow:0px 0px 10px #000;
+	-moz-box-shadow:0px 0px 10px #000;
+	-webkit-box-shadow:0px 0px 10px #000;
+	border:1px solid #666;
+	position:relative;
+	width:128px;
+	background:#fff;
+	visibility:hidden;
+}
+.mem_photo {
+	width:250px;
+	height:220px;
+}
+.hh_photo {
+}
+
+.hh_type {
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	background:#FFF0CE;
+	margin-right:30px;
+}
+
+.hh_type div {
+	display:inline-block;
+	line-height:36px;
+	padding:0 20px;
+}

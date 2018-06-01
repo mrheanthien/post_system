@@ -1,0 +1,34 @@
+.option-box {
+	width:340px;
+	padding:20px 30px;
+	margin:auto;
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+
+.option-box .title {
+	margin:0 0 20px 0;
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+
+.option-box .dd {
+	width:212px;
+}
+
+.option-box .tf {
+	width:200px;
+}
+
+.w-button {
+	text-align:center;
+	margin-top:20px;
+}
+
+.option-box .tb-field td {
+	padding:4px 0;
+}
+
+.option-box label {
+	cursor:pointer;
+}

@@ -1,0 +1,69 @@
+.td_left {
+	text-align:left;
+	padding:5px 0 !important;
+}
+
+.td_right {
+	text-align:right;
+	padding:5px 0 !important;
+}
+
+.w_preview {
+	width:540px;
+	height:520px;
+	border:2px solid #ccc;
+	box-shadow:0 0 15px #ccc;
+}
+
+.wbox {
+	margin-top:20px;	
+}
+
+.f-wbox {
+	margin-top:15px;	
+}
+
+.lb {
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.f-tf {
+	border:1px solid #999;
+	padding:5px;
+	width:200px;
+	background:#f3f3f3;
+}
+
+.f-util {
+	float:left;
+	margin-right:10px;
+}
+
+.f-util-label, .f-util-value {
+	display:block;
+}
+
+.f-util-label {
+	text-align:center;
+}
+
+.f-tf-util-value {
+	width:108px;
+}
+
+.br {
+	background:#FFE0E0 !important;
+}
+
+.w-ico {
+	float:right;
+}
+
+
+.ico {width:36px;}
+.ico:hover {cursor:pointer;}
+
+.w-dd-left-ico {margin-right:40px;}
+.add-member {float:right;margin:0 0 0 267px;height:32px;position:absolute;padding:0 5px;width:100px;text-decoration:none;line-height:32px;}

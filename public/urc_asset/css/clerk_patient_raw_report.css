@@ -1,0 +1,58 @@
+.w_tabs {
+	width:701px;
+	margin:20px auto;
+} 
+
+.tab_header {
+	padding-left:1px;
+}
+
+span.my_tab_title {
+	display:inline-block;
+	line-height:30px;
+	width:139px;
+	border:1px solid #ddd;
+	margin-left:-1px;
+	margin-right:-4px;
+	text-align:center;
+}
+
+.my_tab_title_c {
+	background:#f3f3f3;
+}
+
+.tab_body {
+	border:1px solid #ddd;
+	padding:20px;
+}
+
+.tab_button {
+	text-align:center;
+	margin:20px;
+}
+
+.tab_body {
+	/*height:425px;*/
+	height:auto;
+}
+
+.export_range {
+	margin-right:10px;
+	width:110px !important;
+}
+
+.location {
+	vertical-align:top;
+}
+
+.h5_normal {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.tran{
+	display:none;
+}
+.filter_blog{
+	margin-bottom:20px;	
+	display:none;
+}

@@ -1,0 +1,63 @@
+.tf {
+	width:120px;
+	text-align:right;
+}
+
+.period {
+	width:123px;
+}
+
+.lb_tf {
+	line-height: 34px;
+	padding:0 10px;
+}
+
+.lb_l2 {
+	padding:0 0 0 40px;
+}
+
+.lb_l3 {
+	padding:0 0 0 60px;
+}
+
+.w_tf {
+	text-align:right;
+}
+
+.lb_tf_a {
+	background:#e9e9e9;
+}
+
+.label_currency{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.opd_amount{
+	text-align:right;
+	width:100%;
+}
+
+
+input[readonly]
+{
+    background-color:#E5E5E9;
+}
+
+.align_center{
+	text-align:center;
+}
+
+.hc_header_title{
+	margin-top:0px;
+	margin-bottom: 20px;
+	text-decoration : underline;
+}
+
+.margin-left-score-average{
+	margin-left:10px;
+}
+
+.required {
+	background: #f7dfdf;
+}

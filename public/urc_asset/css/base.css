@@ -1,0 +1,104 @@
+.base_link {
+	display:block;
+	line-height:30px;
+	padding:0 10px;
+	width:250px;
+}
+
+.base_link:hover .bull {
+	visibility:visible;
+}
+
+.base_name {
+	margin-left:15px;
+}
+
+.bull {
+	visibility:hidden;
+	float:left;
+}
+
+.base_title {
+	padding-top:40px;
+	margin-top:0;
+	text-align:center;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+}
+
+.option-box {
+	width: auto;
+	padding:20px 10px;
+	margin:auto;
+	border:1px solid #ddd;
+	border-radius:5px;
+	height:auto;
+}
+
+.option-box .title {
+	margin:0 0 20px 0;
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+
+.option-box .dd {
+	width:212px;
+}
+
+.option-box .tf {
+	width:200px;
+}
+
+.w-button {
+	text-align:center;
+	margin-top:20px;
+}
+
+.option-box .tb-field td {
+	padding:4px 0;
+}
+
+.fac_list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+.fac_list li{
+	width:33% !important;	
+	float:left;	
+	margin-bottom:10px;
+}
+.fac_list li a{
+	font-size:12px;
+	list-style:none;
+	color:#0381D9;	
+	text-decoration:none;	
+}
+.fac_list li a:hover{
+	border-bottom:1px dotted #0381D9;
+}
+
+/*---style base---*/
+#tabs-hc .basic-hc{
+	width: 500px; 
+	margin: 0 auto;  
+	font-size: 16px;
+}
+.select2-container .select2-selection--single {
+	
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	
+}
+#tabs-hc .select2-container--default .select2-selection--single{
+	height: 50px;
+	font-size: 16px;
+	padding: 8px;
+}
+.tb-field{
+	margin: auto;
+	width: 440px;
+	padding: 20px 30px;
+}

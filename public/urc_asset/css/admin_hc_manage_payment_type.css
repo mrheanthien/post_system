@@ -1,0 +1,139 @@
+/* CSS Document */
+@charset "utf-8";
+
+.border
+{
+	border:solid 1px #663;
+	border-radius:5px;
+	
+}
+
+.boxshadow
+{     
+   box-shadow:  0px 0px 5px 5px rgba(100, 100, 100, 0.5);
+}
+
+.radiustop
+{
+	border-radius:5px 5px 0px 0px;
+	height:30px;
+	font-size:16px;
+	padding:5px 0px 0px 5px;
+	background: -moz-linear-gradient(center top , #4096ED 0%, #407EE8 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #1D4CD6;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-width: 80px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: top;
+}
+.borderbottom
+{
+	border-bottom:solid 1px #336392;
+	padding-left:5px;
+	padding-top:20px
+}
+
+.not-found{
+	font-family:"Khmer OS System" !important;
+	font-size:16px !important;
+	color:#F00;
+}
+
+.user-message{
+	/*position:absolute !important;
+	left: 50% !important;
+    top: 10px !important;*/
+	text-align: center;
+    width:600px;
+}
+
+
+.tb_silver th {
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+	border:1px solid #ccc;
+	/*line-height:30px;*/
+}	
+
+.tb_silver td {
+	/*line-height:26px;*/
+	border:1px solid #ccc;
+}
+
+.tb_silver tr:hover td {
+	background:#f9f9f9;
+}
+
+.clear {
+	line-height:0;
+	font-size:0;
+	clear:both;
+}
+
+.sep {
+	margin:0 10px;
+}
+
+/*Add More*/
+
+#reload_payment_type select {
+	width: 450px;
+	height:500px;
+	padding:5px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px #eee inset;
+	outline: medium none;
+    vertical-align: top;
+}
+.controls {
+	width: 40px;
+	float: left;
+	margin: 10px;
+}
+.controls a {
+	background-color: #61A2DC;
+	border-radius: 4px;
+	border: 2px solid #61A2DC;
+	color: #ffffff;
+	padding: 2px;
+	font-size: 14px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+	width: 30px;
+}
+.controls button{
+	background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 27px;
+	
+}
+.dd{
+	width: 180px;	
+	margin-right: 10px;
+	float:left; 
+	padding:6px;
+}
+
+.control-buttons{
+	margin-right:5px;
+}

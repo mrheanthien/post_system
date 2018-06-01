@@ -1,0 +1,117 @@
+/*----------------- added code by Chea Sopheak to change Style Menu ---------------------- */
+#nav-report {
+   /* float: left;
+    width: 280px;*/
+    /*border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;*/
+}
+#nav-report li a {
+    /*display: block;
+    padding: 10px 15px;
+    background: #ccc;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    color: #000;*/
+}
+#nav-report li a:hover, #nav-report li a.actived {
+    /*background: #999;
+    color: #fff;*/
+}
+#nav-report li ul {
+    display: none; // used to hide sub-menus
+}
+#nav-report li ul li a {
+    /*padding: 10px 25px;
+    background: #ececec;
+    border-bottom: 1px dotted #ccc;*/
+}
+/*----------------- ended add code by Chea Sopheak to change Style Menu ---------------------- */
+
+
+ul.report_list{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+ul.report_list h4{
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	padding:5px;	
+}
+
+ul.report_items{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+ul.report_items li{
+	display:inline-block;
+	width:33%;
+	margin:10px 0;
+}
+ul.report_items li a{
+	text-decoration:none;		
+}
+
+.shp-search .dd {
+	width:100%;
+}
+
+.shp-search .tb-gaz {
+	width:100%;
+	border-collapse:collapse;
+}
+
+.shp-search .tb-gaz td {
+	border:none;
+	padding:5px 0 ;
+}
+
+.shp-search .title {
+	margin:0 0 10px 0;
+	font-size:16px;
+	font-weight:normal;
+}
+
+.shp-search .left {
+	/*border:1px solid #ccc;*/
+	border-radius:10px;
+	padding:20px 25px;
+	width:285px;
+	float:left;
+}
+
+.shp-search .menu-title {
+	font-size:14px;
+	margin:0 0 10px 0;
+	padding:0 0 2px 0;
+	border-bottom:1px solid #ccc;
+	line-height:28px;
+	font-weight:normal;
+}
+
+.shp-search .lmenu {
+	margin:0;
+	padding:0 0 0 20px;
+	list-style:none;
+}
+
+.shp-search .lmenu li {
+	padding:2px 0;
+	line-height:22px;
+}
+
+.shp-search .lmenu li:hover {
+	list-style:disc;
+}
+
+.shp-search .block {
+	margin-bottom:20px;
+}
+
+.shp-search .block:last-child {
+	margin-bottom:0;
+}

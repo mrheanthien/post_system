@@ -1,0 +1,121 @@
+.tools {
+	line-height:30px;
+}
+
+.tools .dd {
+	width:190px;
+	margin-right:10px;
+}
+
+.tools {
+}
+
+
+.tb-list {
+	width:100%;
+	border-collapse: collapse;
+	margin-bottom:20px;
+}
+
+.tb-list td:nth-child(1) {
+	
+}
+
+.tb-list td:nth-child(2) {
+	
+}
+
+.tb-list td:nth-child(3) {
+	text-align:right;
+}
+
+.tb-list td:nth-child(4) {
+	
+}
+
+.tb-list td:nth-child(5) {
+	
+}
+
+.w-buttons {
+	text-align:center;
+}
+
+.w-buttons .btn {
+	width:140px;
+}
+
+h4.title {
+	font-size:14px;
+	background:#f3f3f3;
+	font-weight:normal;
+	padding: 10px 20px;
+	border:1px solid #ccc;
+	margin-bottom:0;
+}
+
+.toggle-content {
+	padding:20px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin-bottom:20px;
+	
+}
+
+.ico {
+	width:20px;
+	cursor: pointer;
+}
+
+.align-center {
+	text-align:center;
+	
+}
+
+.highlight td {
+	/* background:#D7ECF7; */
+	
+}
+
+.highlight:hover td {
+	background:#D7ECF7 !important;
+}
+
+.w-buttons {
+	margin-top:20px;
+}
+
+.w-buttons .bt-blue {
+	width:100px;
+}
+
+.tb-sub-list {
+	width:100%;
+	border-collapse:collapse;
+	border:none;
+}
+
+.tb-sub-list td {
+	border:none;
+}
+
+.trToggle:hover td {
+	cursor: pointer;
+}
+
+.icon {
+	cursor: pointer;
+	font-size:16px !important;
+}
+
+.ico-hide {
+	display:none;
+}
+
+.highlight-none {
+}
+
+.highlight-blue {
+	background:#D4EBF7;
+}

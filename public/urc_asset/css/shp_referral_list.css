@@ -1,0 +1,244 @@
+.pinfo_label {
+	font-size:16px;
+	background: #eeeeee;
+	background: -moz-linear-gradient(left,  #eeeeee 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -o-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -ms-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: linear-gradient(to right,  #eeeeee 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=1 );
+	padding:5px;
+	width:100px;
+	display:inline-block;
+}
+
+.pinfo {
+	font-size:16px;
+	display:inline-block;
+}
+
+.lb_addr {
+	font-size:16px;
+	width:280px;
+	text-align:left;
+	height:40px;
+}
+
+.tb_discharge td {
+	padding-bottom:15px;
+	vertical-align:top;
+}
+
+.tb_discharge .td3 {
+	padding-left:30px;
+}
+
+.panel-left {
+	float:left;
+	width:280px;
+}
+
+.panel-right {
+	margin-left:280px;
+}
+
+.left-item {
+	margin-bottom:10px;
+}
+
+.block-info, .block-gazetteer {
+	display:inline-block;
+	vertical-align:top;
+}
+.block-info {
+	width:42%;
+}
+
+.block-gazetteer {
+	text-align:right;
+	width:56%;
+}
+
+.right-item {
+	margin-bottom:20px;
+}
+
+.visittype {
+	width:130px;margin:0;height:40px; cursor:pointer;
+}
+
+
+
+
+.fake-control {
+	width:282px;
+	display:inline-block;
+}
+
+.cases {
+	color:#0076ED;
+	cursor:pointer;
+	font-size:16px;
+}
+
+
+
+.icon {
+	cursor:pointer;
+	width:37px;
+	vertical-align:middle;
+}
+
+.sub-disease {
+	margin-left:289px; 
+	margin-top:5px;
+	margin-right: 9px;
+}
+
+
+
+.clerk-discharge {
+	margin-top:30px;
+}
+
+.clerk-discharge .tb-info {
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+}
+
+.clerk-discharge .tb-info td {
+	padding:5px 0;
+}
+
+.clerk-discharge .pid {
+	width:100%;
+	border:1px solid #ccc;
+	padding:10px 0;
+	font-size:16px;
+	text-align:center;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.clerk-discharge .w-toggle {
+	float:right;
+}
+
+.clerk-discharge .toggle {
+	width:140px;
+}
+
+.clerk-discharge .tb-discharge {
+	width:100%;
+}
+
+.clerk-discharge .tb-discharge td {
+	vertical-align:top;
+	padding:0 20px;
+}
+.clerk-discharge .tb-discharge td:first-child {
+	padding-left:0;
+}
+
+.clerk-discharge .tb-discharge td:last-child {
+	padding-right:0;
+}
+
+.clerk-discharge .tb1, .clerk-discharge .tb2, .tb-refer {
+	width:100%;
+	border-collapse:collapse;
+	border:none;
+}
+
+.clerk-discharge .tb1 td, .clerk-discharge .tb2 td {
+	padding:5px 0;
+	vertical-align:middle;
+}
+
+.clerk-discharge .tb1 td input, .clerk-discharge .tb2 td input {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width:100%;
+	height:35px;
+}
+
+.clerk-discharge .tb1 td select, .clerk-discharge .tb2 td select {
+	width:100%;
+}
+
+.w-button {
+	margin-top:15px;
+	text-align:center;
+}
+
+.tb-refer td {
+	padding:5px 0;
+}
+
+.tb-refer td select {
+	width:100%;
+}
+
+.clerk-discharge .w-diag {
+	margin-right:45px;
+	margin-bottom:5px;
+}
+
+.clerk-discharge .remove {
+	float:right;
+	width:30px !important;
+	height:27px !important;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:3px;
+}
+
+.clerk-discharge .bt-add {
+	width:40px !important;
+	height:30px !important;
+	margin:0 10px 10px 0;
+	font-size:24px;
+	float:right;
+}
+
+.clerk-discharge .rd {
+	cursor:pointer;
+}
+
+.clerk-discharge .rd input {
+	width:40px !important;
+	height:0 !important;
+	margin:0 !important;
+	cursor:pointer;
+}
+
+.clerk-discharge .rd span {
+	cursor:pointer;
+}
+
+
+.clerk-discharge .w-submit {
+	text-align:right;
+}
+
+.clerk-discharge .w-submit .bt-blue {
+	margin:0;
+}
+
+
+
+.tb-discharge .tb-none {
+	margin:0;
+	padding:0;
+	border:none;
+	width:100%;
+}
+
+.tb-discharge .tb-none td {
+	padding:0;
+}
+

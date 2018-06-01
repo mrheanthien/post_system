@@ -1,0 +1,236 @@
+.tools {
+	
+}
+
+.tools .tool {
+	display:inline-block;
+	vertical-align:middle;
+	line-height:32px;
+	margin-right:20px;
+}
+
+.tools .tool span:first-child {
+	margin-right:5px;
+}
+
+.tools .tool .dd {
+	width:180px;
+}
+
+.w-data {
+	margin-top:30px;
+}
+
+.w-data .tb_list .tb-section {
+	text-align:center;
+	font-size:14px;
+}
+
+.tb_list tr:hover td {
+	background:none;
+}
+
+.w-data .tb_list tbody .td-case, 
+.w-data .tb_list tbody .td-riel, 
+.w-data .tb_list tbody .td-rate, 
+.w-data .tb_list tbody .td-usd {
+	text-align:right;
+}
+
+.w-data .tb_list {
+	margin-bottom:40px;
+}
+
+.tb_silver {
+	padding:5px 10px;
+}
+
+.bt-blue, .bt-orange {
+	height:30px;
+	margin:5px;
+	padding:0 5px;
+}
+
+.highlight {
+	background:#E8F0FF;
+}
+
+.tb-status {
+	border-collapse:collapse;
+}
+
+.tb-status td, .tb-status th {
+	border:1px solid #ddd;
+}
+
+.tb-status {
+	margin-top:20px;
+	width:100%;
+	font-size:12px;
+}
+
+.tb-status td:nth-child(1), .tb-status td:nth-child(2), .tb-status td:nth-child(3) {
+	text-align:left !important;
+}
+
+.submission-buttons div {
+	margin-bottom:10px;
+}
+
+.submission-buttons .btn {
+	margin:0 5px;
+	padding:5px 10px;
+	width:180px;
+	font-size:12px;
+}
+
+.td-riel {
+	width:120px;
+}
+
+.td-note {
+	width:280px;
+}
+
+.td-riel .tf {
+	text-align:right;
+}
+
+.td-riel .tf, .td-note .tf {
+	width:100%;
+}
+
+
+.adjust-buttons .btn {
+	height:28px;
+	width:80px;
+	margin:0 5px;
+}
+.adjust-buttons .btn:fist-child {
+	margin-left:0px;
+}
+.adjust-buttons .btn:last-child {
+	margin-right:0px;
+}
+
+
+.tb-form td {
+	padding:4px;
+}
+
+.tb-form .tf {
+	height:26px;
+}
+
+.bt-adjust-delete-yes, .bt-adjust-delete-no {
+	font-weight:bold;
+}
+
+
+.highlight-none {
+}
+
+.highlight-blue {
+	background:#D4EBF7;
+}
+
+/* Progress Tracker v2 */
+ol.progress-invoice[data-invoice-steps="2"] li { width: 49%; }
+ol.progress-invoice[data-invoice-steps="3"] li { width: 33%; }
+ol.progress-invoice[data-invoice-steps="4"] li { width: 24%; }
+ol.progress-invoice[data-invoice-steps="5"] li { width: 19%; }
+ol.progress-invoice[data-invoice-steps="6"] li { width: 16%; }
+ol.progress-invoice[data-invoice-steps="7"] li { width: 14%; }
+ol.progress-invoice[data-invoice-steps="8"] li { width: 12%; }
+ol.progress-invoice[data-invoice-steps="9"] li { width: 11%; }
+
+ol.progress-invoice {
+    width: 100%;
+    list-style: none;
+    list-style-image: none;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    margin-bottom:20px;
+}
+
+ol.progress-invoice li {
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+ol.progress-invoice span.step-name {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 1em;
+    color: black;
+    opacity: 0.3;
+}
+
+ol.progress-invoice span.invoice-step {
+    color: black;
+    border: 3px solid silver;
+    vertical-align: middle;
+    background-color: silver;
+    border-radius: 50%;
+    line-height: 20px;;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    z-index: 0;
+}
+
+ol.progress-invoice .invoice-step span {
+    opacity: 0.3;
+}
+
+ol.progress-invoice .active .step-name,
+ol.progress-invoice .active .invoice-step span {
+    opacity: 1;
+}
+
+ol.progress-invoice .invoice-step:before {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    left: 0;
+    z-index: -1;
+}
+
+ol.progress-invoice .invoice-step:after {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    right: 0;
+    z-index: -1;
+}
+
+ol.progress-invoice li:first-of-type .invoice-step:before {
+    display: none;
+}
+
+ol.progress-invoice li:last-of-type .invoice-step:after {
+    display: none;
+}
+
+ol.progress-invoice .done .invoice-step,
+ol.progress-invoice .done .invoice-step:before,
+ol.progress-invoice .done .invoice-step:after,
+ol.progress-invoice .active .invoice-step,
+ol.progress-invoice .active .invoice-step:before {
+    background-color: yellowgreen;
+}
+
+ol.progress-invoice .done .invoice-step,
+ol.progress-invoice .active .invoice-step {
+    border: 3px solid yellowgreen;
+}

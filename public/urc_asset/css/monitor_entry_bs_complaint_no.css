@@ -1,0 +1,39 @@
+/* CSS Document */
+@charset "utf-8";
+
+.frm_form1{
+	margin:30px 0 15px 0;
+	font-size:14px;	
+}
+.tbl-border1{ 
+	width: 370px; 
+	padding: 15px 0 8px; 
+	margin:0 auto;
+}
+.bt_blue1{
+	width:160px; 
+	height:40px; 
+	font-size:14px;	
+}
+.txt_desc1{
+	width:460px; 
+	height:80px;	
+}
+.lbl_title1{
+	text-align:center; 
+	margin-bottom:10px;
+	font-size:18px;
+	font-weight:bold;	
+}
+
+.option-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px 30px;   
+}
+.option-box .title {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+}

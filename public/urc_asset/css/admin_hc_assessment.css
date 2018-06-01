@@ -1,0 +1,52 @@
+.w_tools {
+	padding-top:40px;
+}
+
+.w_tools .left {
+	float:left;
+	margin-bottom:20px;
+}
+
+.w_tools .right {
+	float:right;
+}
+
+
+
+.tb_user th {
+	font-size:14px;
+}
+
+.tb_user td {
+	
+}
+
+.sep {
+	margin:0 10px;
+}
+
+.td6, .td5 {
+	text-align:center;
+}
+
+.w_button input {
+	width:120px;
+}
+
+.add_icon {
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.remove_icon {
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.dd_gray{
+    background: #ddd;
+}
+

@@ -1,0 +1,32 @@
+.custom-check-in-confirm{
+	background:#fff;
+	border: 5px solid #0274D5;	
+	/*width:800px !important;*/
+	
+}
+
+.custom-check-in-confirm a{
+	color:#0274D5 !important;
+	text-decoration:underline;	
+}
+.custom-check-in-confirm .headline{
+	font-size:26px !important;	
+	font-weight:bold;
+	text-align:center;
+	color:#0274D5 !important;
+	text-decoration:none;
+	border-bottom:0;
+}
+
+.custom-check-in-confirm .msg_body{
+	font-size:22px !important;
+}
+
+.custom-check-in-confirm table thead tr th{
+	font-size:18px !important;
+	font-weight:bold;
+}
+.custom-check-in-confirm table thead tr th, .custom-check-in-confirm table tbody tr td{
+	color:#000;
+	font-size:16px;
+}

@@ -1,0 +1,464 @@
+h3.title {
+	margin:15px 0;
+}
+
+.h4_title {
+	margin:10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+h4.title {
+	font-weight:normal;
+	font-size:14px;
+}
+
+.calendar {
+	width:150px;
+}
+
+.lb-balance {
+	margin-right:10px;
+}
+
+.balance {
+	font-weight:bold;
+	font-size:14px;
+}
+
+
+.section .title {
+	margin:0px 0 10px;
+	line-height:36px;
+}
+
+.w-period .bt-blue {
+	height:26px;
+	margin:0 0 0 5px;
+}
+
+
+.w-hosp, .w-hc {
+	margin-top:30px;
+}
+
+.sb-period .tb-form {
+	width:100%;
+}
+
+.sb-period .tb-form td {
+	padding:3px 5px;
+	font-size:14px;
+	height: 30px;
+}
+
+
+.sb-period .tb-form .tf {
+	height:30px;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	box-shadow:none;
+}
+
+
+.sb-period .w-buttons {
+	text-align:right;
+}
+
+.w-buttons .bt-blue, .w-buttons .bt-orange {
+	margin:0 0 0 15px;
+	height:26px;
+	min-width:100px;
+}
+
+.a-right {
+	text-align:right;
+}
+
+.sb-section .sb-period {
+	/*border-bottom:1px solid #ccc;*/
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.sb-section #sb-hosp-hefo1 .sb-period:last-child {
+	border-bottom:none;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+
+
+.sb-section .tb-form .td-label {
+	width:auto;
+}
+
+.sb-section .tb-form .td-payment-date {
+	width:140px;
+}
+
+.sb-section .tb-form .td-payment-date .calendar {
+	width:100%;
+	box-sizing:border-box;
+	text-align:right;
+}
+
+.sb-section .tb-form .td-case {
+	width:80px;
+}
+
+.sb-section .tb-form .td-riel {
+	width:140px;
+}
+
+.sb-section .tb-form .td-riel input.tf, .sb-section .tb-form .td-usd input.tf {
+	font-weight:normal;
+	border-bottom:1px solid #ccc;
+}
+
+
+.sb-section .tb-form .td-rate {
+	width:120px;
+}
+
+.sb-section .tb-form .td-rate input, .sb-section .tb-form .td-riel input.tf {
+	box-sizing:border-box;
+	text-align:right;
+	width:100%;
+}
+
+
+.sb-section .tb-form .td-usd {
+	width:120px;
+
+}
+
+.sb-section .tb-form .td-usd input {
+	text-align:right;
+	font-weight:bold; 
+	border:none;
+	width:100%;
+}
+
+.sb-section .tb-form .td-case, .sb-section .tb-form .td-riel, .sb-section .tb-form .td-rate, .sb-section .tb-form .td-usd {
+	text-align:right;
+}
+
+
+
+.ul-hcs, .ul-adjust {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.ul-hcs li, .ul-adjust li {
+	padding:4px 10px;
+	float:left;
+	width:220px;
+}
+
+.ul-hcs li .ck, .ul-adjust li .ck {
+	cursor:pointer;
+}
+
+.ul-hcs li:hover, .ul-adjust li:hover {
+	background:#f3f3f3;
+}
+	
+#hc-benefit .w-period div {
+	padding-top:60px;
+	font-size:14px;
+	padding-right:45px;
+}
+.w-hosp .w-period div {
+	padding-top:15px;
+	font-size:14px;
+	padding-right:22px;
+}
+	
+.w-period a.link {
+	margin-left:15px;
+}
+	
+.tb-cash-entry .dd {
+	width:200px;
+}
+
+#w-hc-range .tf, #w-hosp-range .tf {
+	box-sizing:border-box;
+	width:100%;
+}
+
+.tf-note {
+	width:100%;
+	box-sizing:border-box;
+}
+
+
+
+ 
+
+
+
+.tb-cash-entry td select {
+	vertical-align:middle;
+}
+
+.tb-cash-entry span {
+	margin-right:5px;
+}
+
+.tb-rh {
+	border:1px solid #ccc;
+}
+
+.tb-rh td {
+	border:none;
+	padding:5px 15px;
+}
+
+.tb-rh .tf {
+	height:20px;
+}
+
+.w-period .dd {
+	height:30px;
+}
+
+
+
+.section {
+	margin-top:15px;
+}
+
+.w-buttons {
+	margin-top:10px;
+	text-align:right;
+}
+
+.w-buttons .bt-blue {
+	margin:0 0 0 15px;
+	min-width:100px;
+}
+
+.w-period {
+	float:right;
+}
+
+td.even {
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+}
+
+td.odd {
+	padding-top:10px;
+}
+
+.bt-blue, .bt_blue {
+	height:34px;
+}
+
+.pull-left {
+	float:left;
+}
+
+
+
+
+.section {
+	clear:both;
+}
+
+.sb-section {
+	border:1px solid #ccc;
+	padding:20px;
+	
+}
+
+
+.section .tb-form {
+	width:100%;
+	border-collapse:collapse;
+}
+
+.section .tb-form th {
+	font-size:14px;
+	font-weight:normal;
+	background:#f3f3f3;
+	padding:8px 0;
+	text-align:center;
+}
+
+.section .tb-form td {
+	padding:3px 5px;
+	font-size:14px;
+	height: 28px;
+}
+
+.section .tb-form .tf {
+	height:24px;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	box-shadow:none;
+}
+
+.tb-form td:nth-child(3), .tb-form td:nth-child(4), .tb-form td:nth-child(5), 
+.tb-form td:nth-child(3) .tf, .tb-form td:nth-child(4) .tf, .tb-form td:nth-child(5) .tf {
+	text-align:right;
+}
+
+.btn-group {
+	margin:0;
+}
+
+.btn-group-action {
+	margin:0 0 0 0;
+}
+
+.btn-group-action .btn {
+	width:120px;
+}
+
+.tb-pop-form {
+	margin-bottom:15px;
+}
+
+.tb-pop-form .tf {
+	width:100%;
+}
+
+.sb-section .tb-form tr:hover td {
+	background-color:#eee;
+}
+
+.sb-section .tb-form tr:hover td[colspan="3"], 
+.sb-section .tb-form tr:hover td[colspan="6"] {
+	background:none;
+}
+
+.bottom-buttons {
+	margin-top:20px;
+}
+
+.bottom-buttons .btn {
+	width:160px;
+}
+
+.highlight-none {
+}
+
+.highlight-blue {
+	background:#D4EBF7;
+}
+.bg-total{
+	background: #cfdff9;
+}
+
+/* Progress Tracker v2 */
+ol.progress-invoice[data-invoice-steps="2"] li { width: 49%; }
+ol.progress-invoice[data-invoice-steps="3"] li { width: 33%; }
+ol.progress-invoice[data-invoice-steps="4"] li { width: 24%; }
+ol.progress-invoice[data-invoice-steps="5"] li { width: 19%; }
+ol.progress-invoice[data-invoice-steps="6"] li { width: 16%; }
+ol.progress-invoice[data-invoice-steps="7"] li { width: 14%; }
+ol.progress-invoice[data-invoice-steps="8"] li { width: 12%; }
+ol.progress-invoice[data-invoice-steps="9"] li { width: 11%; }
+
+ol.progress-invoice {
+    width: 100%;
+    list-style: none;
+    list-style-image: none;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    margin-bottom:20px;
+}
+
+ol.progress-invoice li {
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+ol.progress-invoice span.step-name {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 1em;
+    color: black;
+    opacity: 0.3;
+}
+
+ol.progress-invoice span.invoice-step {
+    color: black;
+    border: 3px solid silver;
+    vertical-align: middle;
+    background-color: silver;
+    border-radius: 50%;
+    line-height: 20px;;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    z-index: 0;
+}
+
+ol.progress-invoice .invoice-step span {
+    opacity: 0.3;
+}
+
+ol.progress-invoice .active .step-name,
+ol.progress-invoice .active .invoice-step span {
+    opacity: 1;
+}
+
+ol.progress-invoice .invoice-step:before {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    left: 0;
+    z-index: -1;
+}
+
+ol.progress-invoice .invoice-step:after {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    right: 0;
+    z-index: -1;
+}
+
+ol.progress-invoice li:first-of-type .invoice-step:before {
+    display: none;
+}
+
+ol.progress-invoice li:last-of-type .invoice-step:after {
+    display: none;
+}
+
+ol.progress-invoice .done .invoice-step,
+ol.progress-invoice .done .invoice-step:before,
+ol.progress-invoice .done .invoice-step:after,
+ol.progress-invoice .active .invoice-step,
+ol.progress-invoice .active .invoice-step:before {
+    background-color: yellowgreen;
+}
+
+ol.progress-invoice .done .invoice-step,
+ol.progress-invoice .active .invoice-step {
+    border: 3px solid yellowgreen;
+}
+
+hr.style12 {
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}

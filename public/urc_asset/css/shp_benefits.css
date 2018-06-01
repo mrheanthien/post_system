@@ -1,0 +1,237 @@
+.tb-info {
+	width:100%;
+	border:none;
+	border-collapse: collapse;
+}
+
+.tb-info td {
+	vertical-align: top;
+}
+
+.info-code {
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.info-photo {
+	height:220px; 
+}
+
+.info-photo img {
+	border:1px solid #ccc;
+}
+
+.info-pid {
+	background:#f3f3f3;
+	line-height:40px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+h3.title {
+	margin:10px 0 20px 0;
+}
+
+.w-toggles {
+	float:right;
+}
+
+.w-toggles .bt-toggle {
+	width:240px;
+	margin:0;
+	display:none;
+}
+
+.w-toggles .on {
+	display:inline;
+}
+
+.tb-pinfo td {
+	padding:5px 0 5px 0;
+}
+
+.tb-pinfo td:nth-child(1) {
+	width:85px;
+}
+
+.tb-mdate td {
+	padding:4px 0;
+}
+
+.left-items .item {
+	margin:10px 0;
+	text-align:center;
+}
+
+.left-items input {
+	width:140px;
+}
+
+.alert-message {
+	border:1px solid #7F0000;
+	background:#FFDBDB;
+	padding:10px 20px;
+	margin-bottom:10px;
+}
+
+
+.tb-benefit {
+
+}
+
+.tb-benefit td {
+	vertical-align: middle;
+	padding:5px;
+}
+
+.tb-benefit .tf, .tb-benefit .dd, .tb-diag .tf, .tb-diag .dd {
+	width:100%;
+}
+
+.tb-benefit td:nth-child(1) {
+}
+
+.tb-benefit td:nth-child(2) {
+	width:200px;
+}
+
+.tb-benefit td:nth-child(3) {
+	width:200px;
+}
+
+.tb-benefit td:nth-child(4) {
+	width:110px;
+}
+
+.tb-benefit td:nth-child(4) .tf {
+	text-align:right;
+}
+
+.tb-benefit td:nth-child(2) div, .tb-benefit td:nth-child(3) div {
+	margin-right:20px;
+}
+
+.tb-diag td {
+	padding-bottom:20px;
+}
+
+.tb-diag td .td-div {
+	margin-right:20px;
+}
+
+.tb-diag td .div-label {
+	text-align:center;
+	margin-bottom:5px;
+}
+
+.tb-diag td:nth-child(1), .tb-diag td:nth-child(2) {
+	width:260px;
+}
+
+
+.w-services {
+	position:relative;
+	margin-bottom:10px;
+}
+
+.ico-service {
+	width:36px;
+	cursor: pointer;
+}
+
+.w-ico-service {
+	position:absolute;
+	right:-40px;
+}
+
+.w-buttons .bt_orange, .w-buttons .bt-blue {
+	/*width:150px;*/
+	width:auto;
+}
+
+.w-buttons .bt_orange {
+	margin:0 5px 0 0;
+}
+
+.w-buttons .bt-blue {
+	margin:0 0 0 5px;
+	height:36px;
+}
+
+.alert {
+	background:#FFE4E2;
+}
+
+.give-food {
+	background:#def2dc;
+}
+
+.skip-food {
+	background:#faffc4;
+}
+
+.tb-foods {
+	width:100%;
+	border-collapse: collapse;
+	margin-bottom:15px;
+}
+
+.tb-foods td {
+	border:1px solid #ccc;
+	padding:10px;
+	height:110px;
+}
+
+.tb-foods td .no {
+	position:absolute;
+	font-weight:bold;
+}
+
+.tb-foods td .label {
+	text-align:center;
+	width:100%;
+	height:100%;
+	display:table;
+	color:#333;
+	font-weight:normal;
+	font-size:12px;
+}
+
+.tb-foods td .label span {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.w-tb-food-buttons {
+	text-align:center;
+}
+
+.w-tb-food-buttons .bt_silver {
+	margin:0px 5px 15px;
+	width:100px;
+}
+
+.w-foods-nav {
+	margin-bottom:15px;
+	
+}
+
+.food-navs {
+	color:#066dab;
+	cursor: pointer;
+	font-weight:bold;
+}
+
+.relative {
+	position:relative;
+}
+
+.cc {
+	position:absolute;
+	right:5px;
+	top:6px;
+	cursor: pointer;
+}

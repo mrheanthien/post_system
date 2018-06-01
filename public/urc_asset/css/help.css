@@ -1,0 +1,124 @@
+@import url(../js/bootstrap/hint.css);
+.w-external-tool {
+    margin-top: 10px;
+}
+.tool {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.logo {
+    text-align: left;
+}
+.we-left {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 100px;
+	min-height:50px;
+	text-align: center;
+}
+.we-left p,.we-right p{
+	margin:0px;
+}
+
+.we-right {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 825px;
+	min-height:50px;
+}
+.title {
+    margin: 0px;
+}
+.hint--top:before, .hint--top:after {
+  left: 0% !important; }
+.th-list{
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #4397e0 1%, #2c86e0 100%) repeat scroll 0 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+    padding: 3px 5px;
+	color:#FFF;
+}
+.btn-label {
+    background: rgba(0, 0, 0, 0.05) none repeat scroll 0 0;
+    border-radius: 3px 0 0 3px;
+    display: inline-block;
+    left: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../js/bootstrap/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") 
+		 format("embedded-opentype"), url("../js/bootstrap/fonts/fontawesome-webfont.woff?v=4.0.3") 
+		 format("woff"), url("../js/bootstrap/fonts/fontawesome-webfont.ttf?v=4.0.3") 
+		 format("truetype"), url("../js/bootstrap/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+}
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.fa-search:before {
+  content: "\f002";
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.w-help {
+	margin-top:50px;
+	line-height:22px;
+}
+
+.w-help .help-menu-ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.w-help .help-menu-ul li {
+	
+}
+
+.w-help .help-menu-ul li a {
+	margin:-1px 0 0 0;
+	padding:3px 0;
+	list-style:none;
+	line-height:22px;
+	color:#333;
+	display:block;
+}
+
+.w-help .help-menu-ul li a:hover {
+	font-weight:bold;
+}
+
+.w-help .help-menu-ul li a.current {
+	font-weight:bold;
+}
+
+.w-help .w-help-menu {
+	float:left;
+	width:240px;
+}
+
+.w-help .w-help-content {
+	margin-left:260px;
+	padding:0 0 20px 30px;
+	border-left:1px solid #ccc;
+	min-height:300px;
+}
+

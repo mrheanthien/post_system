@@ -1,0 +1,33 @@
+.wm-item {
+	text-align:center;
+	margin-bottom:15px;
+}
+
+.bt_monitors {
+	width:200px;
+}
+
+.wm-options {
+	margin-top:50px;
+}
+
+.wm-options select {
+	margin:0 10px;
+	width:200px;
+}
+
+.w-tools {
+	margin-top:20px;
+	font-size:14px;
+}
+
+.w-tools span {
+	margin:0 20px;
+}
+
+.msg-seleted-date{
+	text-align:center;font-size:25px;color:#BB1F2D;
+}
+.padding_top_5{
+	padding-top: 12px;
+}

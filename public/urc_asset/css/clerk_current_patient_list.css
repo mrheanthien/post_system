@@ -1,0 +1,38 @@
+#start, #end {
+	height:30px;
+	/*width:200px;*/	
+	width:165px;
+}
+#head_title {
+	font-size:18px; 
+	width:100%; 
+	border-bottom:1px solid #ccc; 
+	clear: both;
+}
+.search{
+	float:right; 
+	width: 100%; 
+	clear: both;
+	margin: 15px 0px;
+	text-align: right;
+}
+.red{
+	color: #F00;	
+}
+.green {
+	color:#0F0;	
+}
+.tb_silver .note, 
+.tb_silver .note:hover/*, 
+.tb_silver .note td, 
+.tb_silver .note td:hover*/{
+	background: #CCC;	
+}
+.bt_blue, .bt-blue {
+    height: 31px;
+    line-height: 0;
+}
+#ward {
+	height:30px;
+	width: 25%;
+}

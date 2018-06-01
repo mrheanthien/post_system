@@ -1,0 +1,20 @@
+
+
+
+#certification-list td:nth-child(3) {
+	text-align:right;
+}
+#certification-list td:nth-child(4), #certification-list td:nth-child(5), #certification-list td:nth-child(8) {
+	text-align:center;
+}
+
+
+.table-title{
+	height:100px;
+	transform: rotate(-60deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-60deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-60deg);
+    -webkit-transform-origin:right, top;
+}

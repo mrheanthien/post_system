@@ -1,0 +1,31 @@
+.info {
+	width: 100;	
+}
+td	{
+	padding: 10px 30px 10px 0;
+}
+td.label{
+	padding: 10px 10px 10px 0;	
+	width: 200px;
+}
+td.end{
+	padding: 0;	
+}
+.tf {
+	width: 155px !important;	
+}
+#itemRows{
+	overflow: hidden;	
+}
+.wrap-od{
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;	
+}
+#itemRows label{
+	float: left;
+	width: 250px;
+}
+#itemRows .text{
+	float: left	
+}

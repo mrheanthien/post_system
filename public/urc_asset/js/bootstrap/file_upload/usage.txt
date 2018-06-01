@@ -1,0 +1,141 @@
+function view_file(name){
+	//alert(file_history[name].toString());
+	//var list = $('#uploaded-file-'+name+'-list').html();
+	var set_page = '<div class="pl-message-message" id="error_message_'+name+'" style="display:none;"></div>'
+				  +'<div class="chosen-container chosen-container-multi" style="min-height:35px; margin-bottom:100px;">'
+				  +'<ul id="list_uploadedfile_'+name+'" class="chosen-choices" style="min-height:35px;">';//+list+'</ul></div>';
+	var list = '';			  
+	$.each( file_history[name], function( k, v ) {
+		var file = (file_uploaded[name][k].toString()).split(':');
+		
+		list += '<li class="search-choice" id="'+ file[0] +'"><span>'+ file[1] + ' (' + file[2] +') <b><span>100%</span></b></span>'
+		  	  +'<a class="search-choice-close" onclick="remove_fileupload(\''+ name +'\',\''+ file[0] +'\',\''+ file[1] +'\');"></a></li>';
+	});
+	
+	set_page += list + '</ul></div>';			  
+	m.alert('<?php echo _t('list_history_file'); ?>', set_page, function(){});
+	
+	setTimeout(function() {		
+		$('#pl-message-alert-close, .pl-message-close, #list_file_'+name+'_ok').attr({'id':'list_file_'+name+'_ok', 'onclick':'showHideBotton(\'list_file_'+name+'_ok\', \''+name+'\', \'list_clicked\')'});
+	}, 500);
+}
+
+function upload_file(name){
+	var set_page = '<div style="height:100px; margin-bottom:100px;"><div id="container">'
+				  +'<a id="pickfiles_'+name+'" href="javascript:;">[Select files]</a>'
+				  +'<a id="uploadfiles_'+name+'" href="javascript:;">[Upload files]</a>'
+				  +'<div class="pl-message-message" id="error_message_'+name+'" style="display:none;">'
+				  +'<div class="a-left"><div class="pl-message-message pl-message-red" id="error_upload_'+name+'"></div></div></div>'
+				  +'<br /><div class="chosen-container chosen-container-multi" style="width: 100% !important; min-height:35px;">'
+				  +'<ul id="filelist_'+name+'" class="chosen-choices" style="min-height:35px;"></ul></div></div>';
+	m.alert('<?php echo _t('upload_history_file'); ?>', set_page, function() {});
+	count_file = 0;
+	setTimeout(function() {
+		$('#pl-message-alert-close, .pl-message-close, #upload_file_'+name+'_ok').attr({'id':'upload_file_'+name+'_ok', 'onclick':'showHideBotton(\'upload_file_'+name+'_ok\', \''+name+'\', \'upload_clicked\')'});
+		
+		var uploader = new plupload.Uploader({
+			runtimes : 'html5,flash,silverlight,html4',
+			browse_button : 'pickfiles_'+name, // you can pass an id...
+			container: document.getElementById('container'), // ... or DOM Element itself
+			url : 'ajax/mental_fileupload.php?history='+name+'&vid=<?php echo $data->_vid;?>&vtype=1',
+			flash_swf_url : './js/bootstrap/file_upload/Moxie.swf',
+			silverlight_xap_url : './js/bootstrap/file_upload/Moxie.xap',
+			
+			filters : {
+				max_file_size : '10mb',
+				mime_types: [
+					{title : "Image files", extensions : "jpg,gif,png,pdf,doc,docx,xls,xlsx"},
+					{title : "Zip files", extensions : "zip"}
+				]
+			},
+		
+			init: {
+				PostInit: function() {
+					$('#filelist_'+name).html('');
+					
+					$('#uploadfiles_'+name).click(function(){
+						uploader.start();
+						return false;
+					});
+				},
+		
+				FilesAdded: function(up, files) {
+					
+					plupload.each(files, function(file) {
+						var d = '<li class="search-choice" id="'+ file.id +'"><span>'+ file.name + ' (' + plupload.formatSize(file.size) +') <b></b></span>'
+		  					   +'<a class="search-choice-close" onclick="remove_fileupload(\''+ name +'\',\''+ file.id +'\',\'<?php echo ($_user->id. date('YmdH')).'_';?>'+ file.name +'\');"></a></li>';
+						
+						document.getElementById('filelist_'+name).innerHTML += d;
+						if((typeof file_history[name] === 'undefined')){
+							file_history[name] = [];
+							file_uploaded[name]= [];
+							if ( !( name in arr_history ) ) arr_history[name] = 0;
+						}
+						
+						file_history[name][arr_history[name]]  = '<?php echo ($_user->id. date('YmdH')).'_';?>'+ file.name;
+						file_uploaded[name][arr_history[name]] = file.id + ':' + file.name + ':' + plupload.formatSize(file.size);
+					
+					
+						count_file++;
+						arr_history[name]++;
+						//}
+					});
+				},
+		
+				UploadProgress: function(up, file) {
+					document.getElementById(file.id).getElementsByTagName('b')[0].innerHTML = '<span>' + file.percent + "%</span>";
+					showHideBotton('upload_file_'+name+'_ok', name, 'progress');
+					
+					setTimeout(function() {
+						var list = $('#filelist_'+name).html();
+						$('#uploaded-file-'+name+'-list').html(list);
+					},500);
+				},
+		
+				Error: function(up, err) {
+					$('#error_upload_'+name).html("\nError #" + err.code + ": " + err.message);
+					$('#error_message_'+name).attr('style', 'display:inline-block;');
+					setTimeout(function() {$('#error_message_'+name).hide();},1000);
+				}
+			}
+		});
+		
+		uploader.init();		
+	}, 500);	
+}
+
+function remove_allFileuploaded(){
+	$.each( file_history, function( key, value ) {
+		$.each( file_history[key], function( k, v ) {
+			setTimeout(function() {
+				$.post(
+					'ajax/mental_remove_fileuploaded.php',  
+					{file : v},
+					function(r){console.log('Removed');}
+				);
+			},1500);
+		});
+	});
+}
+
+function remove_fileupload(history, id, name){
+	$('#' + id).remove();
+	$.post(
+		'ajax/mental_remove_fileuploaded.php',  
+		{file : name},
+		function(r) {
+			if(r.e == 0) {
+				count_file--;
+				arr_history[history]--;
+				//if(count_file == 0){
+				if(arr_history[history] == 0){
+					$('#file-'+ history+'-list').hide();
+					$('#file-'+ history).show();
+				}
+				removeArr(file_history[history], name, history);
+				$('#' + id).remove();
+			}else m.message('Can not remove this file !', 'red', 'gm');
+			
+		}, 'json'
+	);
+}

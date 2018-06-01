@@ -1,0 +1,30 @@
+.tool input {
+	margin:0 10px 0 0;
+}
+
+.tool {
+	margin-bottom:20px;
+}
+
+
+
+.tb-form .dd, .tb-form .tf {
+	width:100%;
+}
+
+.tb_list .center {
+	text-align:center;
+}
+
+#rate-list td:nth-child(2) {
+	text-align:right;
+}
+
+#rate-list td:nth-child(3) {
+	text-align:center;
+}
+
+#rate-list td:nth-child(3) a {
+	margin:0 7px;
+	cursor:pointer;
+}

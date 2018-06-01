@@ -1,0 +1,182 @@
+.top-left {
+	width:280px;
+	float:left;
+}
+
+.top-right {
+	margin-left:280px;
+	min-height:270px;
+}
+
+.pinfo_label {
+	font-size:14px;
+	background: #eeeeee;
+	background: -moz-linear-gradient(left,  #eeeeee 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -o-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -ms-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: linear-gradient(to right,  #eeeeee 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=1 );
+	padding:5px;
+	width:120px;
+	display:inline-block;
+}
+
+.pinfo {
+	font-size:14px;
+	display:inline-block;
+}
+
+.lb_addr {
+	font-size:16px;
+	width:280px;
+	text-align:left;
+	height:40px;
+}
+
+
+.tb_modal td {
+	padding-bottom:15px;
+}
+
+.control {
+	margin-bottom:15px;
+}
+
+.popup #heading {
+	display:block;
+	text-align:right;
+	margin-top:10px;
+}
+
+#modal {
+	width:360px;
+}
+
+.members {
+	cursor:pointer;
+}
+
+.td1 {
+	text-align:left;
+}
+
+.tb_histories {
+	border-collapse:collapse;
+}
+
+.tb_histories .td0, .tb_histories .td1, .tb_histories .td2, .tb_histories .td5, .tb_histories .td6 {
+	text-align: center;
+}
+
+.icon {
+	margin:0 5px;
+	width:16px;
+}
+
+.clerk-profile {
+	margin-top:30px;
+}
+
+.clerk-profile .tb-info, .clerk-profile .tb-action, .clerk-profile .tb-form {
+	border-collapse:collapse;
+	border:none;
+	width:100%;
+}
+
+.clerk-profile .tb-info td, .clerk-profile .tb-form td {
+	padding:5px 0;
+}
+
+.clerk-profile .top-button input {
+	width:100% !important;
+	margin:10px 0 !important;
+	padding:0 !important;
+}
+
+.clerk-profile .pid {
+	width:260px;
+	font-size:16px;
+	line-height:35px;
+	text-align:center;
+	border:1px solid #ccc;
+}
+
+.clerk-profile .tb-form td select, .clerk-profile .tb-form td .tf {
+	width:100%;
+	box-sizing: border-box; /* css3 rec */
+	-moz-box-sizing: border-box; /* ff2 */
+	-ms-box-sizing: border-box; /* ie8 */
+	-webkit-box-sizing: border-box; /* safari3 */
+	-khtml-box-sizing: border-box; /* konqueror */
+}
+
+.clerk-profile .tb-form td .tf {
+	height:35px;
+	
+}
+
+
+.clerk-profile .hr {
+	height:1px;
+	border-bottom:1px solid #ccc;
+	margin:20px 0 30px 0;
+}
+
+.w_histories {
+	margin-top:30px;
+}
+
+.clerk-profile .td-button {
+	width:140px;
+	vertical-align:top;
+}
+
+.clerk-profile .rd, .clerk-profile .rd input, .clerk-profile .rd span {
+	cursor:pointer;
+}
+
+.w-inpatient-list {
+	height: 200px;
+    overflow-y: scroll;
+	background:#fff;
+}
+
+
+.w-button {
+	text-align:right;
+}
+
+.custom-check-in-confirm{
+	background:#fff;
+	border: 5px solid #0274D5;	
+	width:800px !important;
+	
+}
+
+.custom-check-in-confirm a{
+	color:#0274D5 !important;
+	text-decoration:underline;	
+}
+.custom-check-in-confirm .headline{
+	font-size:26px !important;	
+	font-weight:bold;
+	text-align:center;
+	color:#0274D5 !important;
+	text-decoration:none;
+	border-bottom:0;
+}
+
+.custom-check-in-confirm .msg_body{
+	font-size:22px !important;
+}
+
+.custom-check-in-confirm table thead tr th{
+	font-size:18px !important;
+	font-weight:bold;
+}
+.custom-check-in-confirm table thead tr th, .custom-check-in-confirm table tbody tr td{
+	color:#000;
+	font-size:16px;
+}

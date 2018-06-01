@@ -1,0 +1,519 @@
+input[type="checkbox"], input[type="radio"] {
+    line-height: normal;
+    margin: 0;
+    padding: 5px;
+    width: 20px;
+}
+#detail_form > .content > .body {
+    float: left;
+    padding: 2.5%;
+    width: 100%;
+}
+
+
+.pinfo_label {
+	font-size:16px;
+	background: #eeeeee;
+	background: -moz-linear-gradient(left,  #eeeeee 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -o-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: -ms-linear-gradient(left,  #eeeeee 0%,#ffffff 100%);
+	background: linear-gradient(to right,  #eeeeee 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=1 );
+	padding:5px;
+	width:100px;
+	display:inline-block;
+}
+.pinfo {
+	font-size:16px;
+	display:inline-block;
+}
+.tf, .dd {
+	width: 250px;
+}
+.delivery .tf, .delivery .dd {
+	width: 100% !important;
+}
+
+.lb_addr {
+	font-size:16px;
+	width:280px;
+	text-align:left;
+	height:40px;
+}
+.tb_discharge td {
+	padding-bottom:15px;
+	vertical-align:top;
+}
+.tb_discharge .td3 {
+	padding-left:30px;
+}
+.panel-left {
+	float:left;
+	width:280px;
+}
+.panel-right {
+	margin-left:280px;
+}
+.left-item {
+	margin-bottom:10px;
+}
+.block-info, .block-gazetteer {
+	display:inline-block;
+	vertical-align:top;
+}
+.block-info {
+	width:42%;
+}
+.block-gazetteer {
+	text-align:right;
+	width:56%;
+}
+.right-item {
+	margin-bottom:20px;
+}
+.visittype {
+	width:130px;margin:0;height:40px; cursor:pointer;
+}
+.fake-control {
+	width:282px;
+	display:inline-block;
+}
+.cases {
+	color:#0076ED;
+	cursor:pointer;
+	font-size:16px;
+}
+.icon {
+	cursor:pointer;
+	width:37px;
+	vertical-align:middle;
+}
+.sub-disease {
+	margin-left:289px;
+	margin-top:5px;
+	margin-right: 9px;
+}
+.hc-clerk-payement {
+	margin-top:30px;
+}
+.hc-clerk-payement .tb-info {
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+}
+.hc-clerk-payement .tb-info td {
+	padding:5px 0;
+}
+.hc-clerk-payement .pid {
+	width:100%;
+	border:1px solid #ccc;
+	padding:10px 0;
+	font-size:16px;
+	text-align:center;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.hc-clerk-payement .w-toggle {
+	float:right;
+}
+.hc-clerk-payement .toggle {
+	width:140px;
+}
+.hc-clerk-payement .tb-payement {
+	width:100%;
+}
+.hc-clerk-payement .tb-payement td {
+	vertical-align:middle;
+	padding:5px;
+}
+#detail_form td:first-child{
+	vertical-align: middle;
+}
+#detail_form td:last-child{
+	vertical-align: top;
+}
+/*.hc-clerk-payement .tb-payement td:first-child {
+	padding-left:0;
+}
+.hc-clerk-payement .tb-payement td:last-child {
+	padding-right:0;
+}*/
+.hc-clerk-payement .tb1, .hc-clerk-payement .tb2, .tb-refer {
+	width:100%;
+	border-collapse:collapse;
+	border:none;
+}
+.hc-clerk-payement .tb1 td, .hc-clerk-payement .tb2 td {
+	padding:5px 0;
+	vertical-align:middle;
+}
+.hc-clerk-payement .tb1 td input, .hc-clerk-payement .tb2 td input {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width:100%;
+	height:35px;
+}
+.hc-clerk-payement .tb1 td select, .hc-clerk-payement .tb2 td select {
+	width:100%;
+}
+.w-button {
+	margin-top:15px;
+	text-align:center;
+}
+.tb-refer td {
+	padding:5px 0;
+}
+.tb-refer td select {
+	width:100%;
+}
+.hc-clerk-payement .w-diag {
+	margin-right:45px;
+	margin-bottom:5px;
+	width:65%;
+}
+.hc-clerk-payement .remove {
+	float:right;
+	width:30px !important;
+	height:27px !important;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:3px;
+	margin-right:5px;
+}
+.hc-clerk-payement .icd {
+	float:right;
+	width:88px !important;
+	height:27px !important;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:3px;
+
+}
+.hc-clerk-payement .bt-add {
+	width:40px !important;
+	height: auto;
+	margin:0 0 10px 0;
+	font-size:24px;
+	/*float:right;*/
+}
+.hc-clerk-payement .rd {
+	cursor:pointer;
+}
+
+.hc-clerk-payement .rd input.radio_box{
+	height: 15px !important;
+	width: 15px !important;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+
+.hc-clerk-payement .rd input {
+	height:0 !important;
+	margin:0 !important;
+	cursor:pointer;
+}
+
+.hc-clerk-payement .rd span {
+	cursor:pointer;
+}
+
+
+.hc-clerk-payement .w-submit {
+	text-align:right;
+}
+
+.hc-clerk-payement .w-submit .bt-blue {
+	margin:0;
+}
+
+
+
+.tb-payement .tb-none {
+	margin:0;
+	padding:0;
+	border:none;
+	width:100%;
+}
+
+.tb-payement .tb-none td {
+	padding:0;
+}
+.filter_blog{
+	margin-bottom:15px;
+}
+h4.title{
+	background: #f3f3f3;
+	padding: 5px 0px 5px 10px;
+	margin-top: 0;
+}
+.parent{
+	width: 100%;
+	float: left;
+	background: #F3F3F3;
+	padding: 4px 0 0 0;
+	vertical-align: top;
+	 margin-bottom: 1em;
+}
+.sub{
+	font-size: 0.9em;
+	padding: 5px 0;
+}
+/*#detail_form{
+	border-bottom: 1px solid #ccc;
+}*/
+.tb-payement .tb-form td {
+	padding: 5px 0;
+}
+
+/*====payement======*/
+.tb_silver {
+	border-collapse:collapse;
+}
+
+.show-body {
+	overflow-y: scroll;
+	height:200px;
+	border:1px solid #ccc;
+}
+.show-head{
+	margin-top: 10px;
+}
+.show-head table {
+	margin-bottom:-1px;
+}
+
+.show-body table {
+	margin-top:-1px;
+	margin-left:-1px;
+}
+
+td img {
+	margin:0 3px;
+	cursor:pointer;
+}
+.tr-main td {
+	border-bottom:0;
+}
+
+.tr-sub td {
+	border-top:0;
+	border-bottom:0;
+}
+
+#history_table .td1, #history_table .td2, #history_table .td3, #tb-invoice .td1, #tb-invoice .td2, #tb-invoice .td3 {
+	text-align:right;
+	font-size:14px;
+}
+
+/*#tb-invoice .td3, #history_table .td3{
+	width: 81px;
+}*/
+#tb-invoice {
+	height: 100px;
+	border: 1px solid #ddd;
+}
+
+.cashier {
+	margin-top:10px;
+}
+
+.cashier .w-toggle {
+	width:100%;
+}
+
+.cashier .w-toggle input {
+	width:50%;
+	padding: 6px 5px;
+}
+
+.cashier .tb-info {
+	border:none;
+	border-collapse:collapse;
+}
+
+.cashier .tb-info td {
+	padding:4px 0;
+}
+
+.cashier .b-payement {
+	clear:left;
+	padding-top:25px;
+}
+
+.cashier .tb-payement th {
+	line-height:30px !important;
+}
+
+.cashier .tb-history-body td {
+	padding:2px 7px;
+}
+
+.cashier .tools {
+	margin-bottom:10px;
+}
+
+.cashier .tools .left {
+	float:left;
+}
+
+.cashier .tools .right {
+	float:right;
+}
+
+.cashier .td-right {
+	text-align:right;
+}
+
+.cashier .w-discount {
+	display:inline-block;vertical-align: top;margin-right:5px;
+}
+
+.cashier .tf-discount {
+	width:85px;display:inline-block;box-sizing: border-box;-moz-box-sizing: border-box; -webkit-box-sizing: border-box;text-align:right;font-size:14px;
+}
+.cashier .tb-total,
+.cashier .tb-total:hover,
+.cashier .tb-total td:hover{
+	background:none !important;
+}
+.tb-total .tn {
+	font-size:14px;
+	padding:8px 10px;
+	width:200px;
+	border:1px solid #ccc;
+	text-align: right;
+	font-weight: bold;
+}
+
+.cashier .tb-total .tn {
+	font-size:14px;
+	padding:8px 10px;
+	width: 200px;
+	border:1px solid #ccc;
+}
+
+.cashier .tb-total .tl {
+	text-align: right;
+	padding-right:20px;
+}
+.cashier .tf-payment {
+	text-align:right;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	border:none !important;
+	background:none !important;
+	box-shadow:none !important;
+	font-weight:bold;
+	padding-right:7px;
+	color: #000;
+}
+.cashier #tf-discount, .cashier #tf-total {
+	padding-right:7px;
+}
+
+.cashier .amb-field {
+	margin-bottom:5px;
+	line-height:24px;
+}
+
+.cashier .amb-field input {
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	height:35px;
+}
+
+.cashier #services .td1 input,.td2 input {
+	width:100% !important;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	height:26px;
+	text-align:right;
+}
+#hospital{
+	display: none;
+}
+#item_x {
+	cursor: inherit;
+}
+.filter_blog .title{
+	cursor: pointer;
+}
+.service-quantity{
+	text-align:center !important;
+	width: 50px;
+	height:34px;
+}
+
+.tf-price-inact, .service-total-price{
+	background:none !important;
+	border:none !important;
+	box-shadow:none !important;
+	width:100px;
+}
+.lbservice {
+	padding-right: 50px;
+}
+.trlb {
+	width: 250px;
+}
+#discharge-diag{
+	max-width: 374px;
+}
+.w-diag input{
+	height: 35px;
+}
+.bornType{
+	background: #D7E9F5;
+}
+.tb_silver td{
+	line-height: 24px;
+}
+.box2{
+	width: 50%;
+	float: left;
+}
+.hc-clerk-payement .label1{
+	color:  #000;
+	font-weight: 400;
+	font-size: 1em;
+}
+#detail_form #item_6 td{
+	vertical-align: top;
+}
+.duration{
+	max-width:  100px;
+}
+.odd > td {
+    word-wrap: break-word;
+}
+#detail_form .epi .odd > td{
+	vertical-align: top;
+}
+
+.autocomplete-ul {
+	left: 0 !important;
+	top : 34px !important;
+}
+.next_followup .col-md-4.l-text{
+	vertical-align:  middle;
+	padding-top: 8px;
+}
+.labo {
+	display: none;
+}
+.lab h5{
+  margin: 0.5% 1%;
+}
+.heading{
+	margin-top:  0;
+	background: #d0d0d0;
+	padding: 4px 0;
+}

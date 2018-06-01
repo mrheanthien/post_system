@@ -1,0 +1,114 @@
+.pl-monitor-result {
+	
+}
+
+.pl-monitor-result .tb_list {
+	border-collapse:collapse;
+}
+
+.pl-monitor-result .tb_list th {
+	line-height:28px;
+}
+
+.pl-monitor-result .tfn {
+	width:57px;
+	height:14px;
+}
+
+.pl-monitor-result .a-center {
+	text-align:center;
+}
+
+
+
+.pl-monitor-result .tb-questionnaire td {
+	text-align:left;
+}
+
+.pl-monitor-result .tb-questionnaire .tab1 {
+	padding-left:30px;
+}
+
+.pl-monitor-result .tb-questionnaire .tab2 {
+	padding-left:60px;
+}
+
+.pl-monitor-result .a-left {
+	text-align:left !important;
+}
+
+.pl-monitor-result .a-right {
+	text-align:right !important;
+}
+
+.pl-monitor-result .row {
+	display:inline-block;
+}
+
+.pl-monitor-result .row .label {
+	margin-right:10px;
+}
+
+
+/*.pl-monitor-result input[type="radio"] {
+	appearance: checkbox;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;     
+    -o-appearance: checkbox;      
+}*/
+
+
+.pl-monitor-result .required {
+	background:#F7DFDF;
+}
+
+.pl-monitor-result .bg-white {
+	background:#fff !important;
+}
+
+.pl-monitor-result .tb-questionnaire input[type=radio], .pl-monitor-result .tb-questionnaire input[type=checkbox] {
+	cursor:pointer;
+	
+}
+
+.tb-info {
+	width:100%;
+}
+
+.tb-info td {
+	padding: 5px 10px;
+}
+
+.pl-monitor-result .tf {
+	width:238px !important;
+}
+
+#until_date,#label_date{
+	width:170px !important;
+	margin: 0 10px;	
+}
+#member{
+	width: 300px !important;	
+}
+#test{
+	text-align: center;	
+}
+#admission_date{
+	width: 125px !important;	
+}
+#case{
+	border-collapse: collapse;
+}
+#case th{
+	font-weight: bold;
+}
+ #case1{
+	border: none; 
+ }
+#case tr td, #case1{
+	background: none;	
+}
+#case tr:hover td {
+	background:#f6f6f6;
+}

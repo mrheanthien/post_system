@@ -1,0 +1,45 @@
+.check {
+	transform:checkbox;
+}
+
+.fit_right {
+	text-align:right;
+	width:50%;
+}
+
+.fit_left {
+	text-align:left;
+	width:50%;
+}
+
+.dd {
+	width:212px;
+}
+
+.h {
+	margin-bottom:15px;
+	width:300px;
+}
+.level {
+	width:30px;
+	height:30px;
+	border:1px solid #999;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	
+}
+.t2 td {
+	padding:5px;
+}
+
+.webcam {
+	width:390px;
+	height:300px;
+	border:1px solid #999;
+}
+
+.option {
+	margin-bottom:5px;
+	text-align:right;
+}

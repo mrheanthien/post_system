@@ -1,0 +1,46 @@
+.label, .value {
+    display:inline-block;
+}
+.label {
+    width:160px;
+}
+
+.icon {
+    width:20px;
+    margin:0 10px;
+}
+.td4 {
+    text-align:center;
+}
+.w_tools {
+    padding-top: 40px;
+}
+.w_tools .left {
+    float: left;
+    margin-bottom: 20px;
+}
+.row_role {
+    margin-bottom:15px;
+}
+
+.w_per {
+    display:inline-block;
+    width:195px;
+    padding:0 5px;
+    line-height:35px;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.w_per:hover {
+    background:#eee;
+}
+
+.per_group {
+    border-bottom:1px solid #ccc;
+    line-height:35px;
+}
+
+.headline {
+    margin-bottom:15px !important;
+}

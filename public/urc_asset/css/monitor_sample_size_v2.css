@@ -1,0 +1,22 @@
+.w-monitor-sample-size {
+}
+
+.operation img {
+	cursor:pointer;
+}
+
+.dd-pop {
+	width:180px;
+}
+
+.tf-pop {
+	width:168px;
+}
+
+.td0, .td4, .td5, .td6, .td7 {
+	text-align:center;
+}
+
+.operation img {
+	margin:0 10px;
+}

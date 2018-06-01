@@ -1,0 +1,43 @@
+.tools .right {
+	float:right;
+}
+
+.tools .left {
+	float:left;
+}
+
+.tools {
+	margin:10px 0;
+}
+
+.w-button {
+	margin-top:15px;
+	text-align:right;
+}
+
+
+.pop-content .dd, .pop-content .tf {
+	width:100% !important;
+}
+
+.pop-content .tf {
+	box-sizing:border-box;
+	height:32px;
+}
+
+
+.tb-form td {
+	padding:3px 0;
+}
+
+.a-right {
+	text-align:right;
+}
+
+.a-center {
+	text-align:center;
+}
+
+.sep {
+	margin:0 5px;
+}

@@ -1,0 +1,110 @@
+.tf{
+    width: 170px;
+}
+
+.sep {
+    margin:0 10px;
+}
+
+.remove_icon {
+    vertical-align:top;
+    height:35px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.add_icon {
+    vertical-align:top;
+    height:35px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.remove_icon_vice_director {
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.add_icon_vice_director {
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.add_icon_chief_acc{
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+
+.remove_icon_chief_acc {
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.add_icon_contact{
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+    float:right;
+}
+
+
+.remove_icon_contact{ 
+    vertical-align:top;
+    height:32px;
+    cursor:pointer;
+    margin-left:10px;
+    float:right;
+}
+
+.w-external-tool {
+    margin-top:30px;
+}
+
+.tool {
+    border:1px solid #ddd;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.logo {
+    text-align:left;
+}
+
+.we-left {
+    margin-left:20px;
+    display:inline-block;
+    vertical-align:top;
+    width:70px;
+}
+
+.we-right {
+    display:inline-block;
+    vertical-align:top;
+    padding:0 0 0 20px;
+    width:775px;
+}
+
+.title {
+    margin:0 0 10px 0;
+}
+
+td, th {
+    padding: 2px;
+}
+
+.ms{
+	padding:25px; 
+	font-size: 15px; 
+	font-weight:bold
+}
+
+

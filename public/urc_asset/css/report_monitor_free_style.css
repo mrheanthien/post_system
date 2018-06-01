@@ -1,0 +1,86 @@
+.w_tabs {
+	width:840px;
+	margin:20px auto;
+} 
+
+.tab_header {
+	padding-left:1px;
+}
+
+span.my_tab_title {
+	display:inline-block;
+	line-height:35px;
+	width:139px;
+	border:1px solid #ddd;
+	margin-left:-1px;
+	margin-right:-4px;
+	text-align:center;
+}
+
+.my_tab_title_c {
+	background:#f3f3f3;
+}
+
+.tab_body {
+	border:1px solid #ddd;
+	padding:20px;
+}
+
+.tab_button {
+	text-align:center;
+	margin:20px;
+}
+
+.tab_body {
+	/*height:425px;*/
+	height:auto;
+}
+
+.export_range {
+	margin-right:10px;
+	width:110px !important;
+}
+
+.location {
+	vertical-align:top;
+}
+
+.h5_normal {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.tran{
+	display:none;
+}
+
+.list{
+	display:block;
+	width:26%;	
+}
+
+.rd {
+	line-height:26px;
+	display:inline-block;
+	padding:0 10px;
+	margin:0px 10px;
+	cursor:pointer;
+	min-width:170px;
+}
+
+input[type="radio"]{
+	margin-right:10px;
+}
+
+.rotate {
+ 	-ms-transform: rotate(270deg); /* IE 9 */
+ 	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+ 	transform: rotate(270deg);
+}
+.word_wrap
+{
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}

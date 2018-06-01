@@ -1,0 +1,109 @@
+.td3, .td4, .td5, .td6 {
+	text-align:center;
+}
+
+.ico {
+	margin:0 10px;
+}
+
+.w-data {
+	margin-top:15px;
+}
+
+#data th .w-th {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+#data tr:hover td {
+	background:none !important;
+}
+
+#data th:hover .icos {
+	display:block;
+}
+
+
+.tools .tool {
+	display:inline-block;
+	line-height:30px;
+}
+
+.tools .tool .dd {
+	height:30px;
+	width:180px;
+}
+
+.tools .tool span {
+	margin-right:10px;
+}
+
+.icos {
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	display:none;
+	background:#f3f3f3;
+}
+
+.icos .ico {
+	width:16px;
+	height:16px;
+	margin:0 5px;
+	cursor:pointer;
+}
+
+.highlight {
+	background:#FFF4BF;
+}
+
+.a-right {
+	text-align:right;
+}
+
+
+
+/* right menu */
+
+#right-menu {
+	min-width:150px;
+	max-width:300px;
+	box-shadow:0 0 5px #999;
+	border:1px solid #ddd;
+	padding:5px;
+	position:absolute;
+	background:#fff;
+	max-height:200px;
+	overflow-y:scroll;
+}
+
+#right-menu ul {
+	margin:0;
+	padding:0;
+}
+
+#right-menu ul li {
+	cursor: pointer;
+	padding:5px 10px;
+	list-style:none;
+}
+
+#right-menu ul li:hover {
+	background:#f3f3f3;
+}
+
+#right-menu ul li label, #right-menu ul li input {
+	cursor:pointer;
+}
+
+
+@media print
+{    
+    .no-print, .top-bar, .b_header, .b_menu, .b_footer
+    {
+        display: none !important;
+    }
+}

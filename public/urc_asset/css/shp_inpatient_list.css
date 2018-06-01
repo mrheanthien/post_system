@@ -1,0 +1,12 @@
+
+
+.icon {
+	width:16px;
+}
+
+td .icon:first-child {
+	margin-right:4px;
+}
+td .icon:last-child {
+	margin-left:4px;
+}

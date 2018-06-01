@@ -1,0 +1,16 @@
+.option-box {
+	width:650px;
+}
+
+.option-box .tb-field {
+	width:100%;
+}
+
+.dd {
+	width:100% !important;
+}
+
+.dd-dual {
+	height:200px;
+	width:100%;
+}

@@ -1,0 +1,32 @@
+h3.title {
+	margin:15px 0;
+}
+
+.h4_title {
+	margin:10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+h4.title {
+	font-weight:normal;
+	font-size:14px;
+}
+
+.calendar {
+	width:150px;
+}
+
+.lb-balance {
+	margin-right:10px;
+}
+
+.balance {
+	font-weight:bold;
+	font-size:14px;
+}
+
+
+.section .title {
+	margin:0px 0 10px;
+	line-height:24px;
+}

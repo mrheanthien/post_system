@@ -1,0 +1,50 @@
+.tb_silver {
+	border-collapse: collapse;
+}
+
+.icon {
+	margin:0 10px;
+	cursor:pointer;
+	width:20px;
+}
+
+.td0, .td2, .td3, .td4 {
+	text-align:center;
+}
+
+
+
+
+.tb-periods, .tb-form {
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+.center {
+	text-align:center;
+}
+
+.tb-form {
+	border:none;
+	margin-bottom:15px;
+}
+
+.tb-form td {
+	padding:0;
+
+}
+
+.tb-form td div {
+	padding:0 0 0 5px;
+}
+
+.tb-form input {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+.tb-form input.tf {
+	padding:5px 10px;
+}

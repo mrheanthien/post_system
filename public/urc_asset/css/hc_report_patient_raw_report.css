@@ -1,0 +1,99 @@
+.w_tabs {
+	width:701px;
+	margin:20px auto;
+} 
+
+.tab_header {
+	padding-left:1px;
+}
+
+span.my_tab_title {
+	display:inline-block;
+	line-height:30px;
+	width:139px;
+	border:1px solid #ddd;
+	margin-left:-1px;
+	margin-right:-4px;
+	text-align:center;
+}
+
+.my_tab_title_c {
+	background:#f3f3f3;
+}
+
+.tab_body {
+	border:1px solid #ddd;
+	padding:20px;
+}
+
+.tab_button {
+	text-align:center;
+	margin:20px;
+}
+
+.tab_body {
+	/*height:425px;*/
+	height:auto;
+}
+
+.export_range {
+	margin-right:10px;
+	width:110px !important;
+}
+
+.location {
+	vertical-align:top;
+}
+
+.h5_normal {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.tran{
+	display:none;
+}
+.filter_blog{
+	margin-bottom:20px;	
+	display:none;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding:10px;
+	
+}
+
+.filter_choices{
+	margin-left: -20px !important;
+	margin-bottom:20px;	
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+.list{
+	display:inline-block;
+	width:20%;	
+}
+.last{
+	width:30%;
+}
+.column_list{
+	border:1px solid #ccc;
+	padding:0;
+	list-style:none;
+	height:300px;
+	overflow-y:scroll;
+	overflow-x: hidden;	
+}
+.column_list li{
+	margin-left:20px;	
+}
+
+
+#all_column_container label{
+	font-weight:bold;	
+}
+
+.rotate {
+	-ms-transform: rotate(270deg); /* IE 9 */
+	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	transform: rotate(270deg);
+}

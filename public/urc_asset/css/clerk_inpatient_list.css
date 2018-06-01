@@ -1,0 +1,23 @@
+#start, #end {
+	height:20px;
+	width:200px;	
+}
+#head_title {
+	font-size:18px; 
+	width:100%; 
+	border-bottom:1px solid #ccc; 
+	clear: both;
+}
+.search{
+	float:right; 
+	width: 70%; 
+	clear: both;
+	margin: 15px 0px;
+	text-align: right;
+}
+.red{
+	color: #F00;	
+}
+.green {
+	color:#0F0;	
+}

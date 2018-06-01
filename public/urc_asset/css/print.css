@@ -1,0 +1,147 @@
+.rep_wrap {
+	width:1000px;
+	font-family:"Khmer OS", "Kh System";
+	font-size:18px;
+	line-height:36px;
+	margin:0 auto 70px;
+}
+
+.font_moul {
+	font-family:"Khmer OS Muol", "Khmer Moul", "Kh Muol";
+}
+
+.tf_fill {
+	border:none;
+	border-bottom:1px dashed #000;
+	margin:0 10px;
+	font-size:18px;
+	background:none;
+	display:inline-block;
+	width:200px;
+	line-height:12px;
+	font-weight:bold;
+}
+
+.line {
+	border-bottom:1px solid #000;
+}
+
+.checkbox {
+	width:23px;
+	height:23px;
+	vertical-align:middle;
+	margin:0 5px;
+}
+
+/*============ table ==============*/
+
+.tb_none {
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+}
+
+.tb_grid th, .tb_grid td {
+	padding:5px;
+}
+
+
+.tb_silver th {
+	background: #f3f3f3;
+/*	background: -moz-linear-gradient(top,  #eeeeee 0%, #d8d8d8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#d8d8d8));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#d8d8d8 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#d8d8d8 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#d8d8d8 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#d8d8d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#d8d8d8',GradientType=0 );
+*/	border:1px solid #ddd;
+	line-height:20px;
+	font-size:13px;
+	padding:5px 0;
+	font-weight:normal;
+}	
+
+.tb_silver td {
+	line-height:22px;
+	border:1px solid #ddd;
+	padding: 5px;
+}
+
+.tb_silver tr:hover td {
+	background:#f6f6f6;
+}
+
+.tb_list {
+	width:100%;
+	border-collapse:collapse;
+}
+
+.tb_list th {
+	text-align:center;
+}
+
+
+.tb_flat th {
+	background: #eeeeee;
+	border:1px solid #ccc;
+	line-height:35px;
+	font-size:14px;
+}	
+
+.tb_flat td {
+	line-height:22px;
+	border:1px solid #ccc;
+	padding: 5px;
+}
+
+.tb_flat tr:hover td {
+	background:#f1f1f1;
+}
+
+.tb-form {
+	width:100%;
+}
+
+.tb-form td, .tb-form th {
+	padding:5px;
+}
+
+
+page[size="A4"] {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    padding:1.20cm 1.20cm;
+    position: relative;
+}
+
+page[size="A4-landscape"] {
+    background: white;
+    width: 29.7cm;
+    height: 21cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    border: 1px dotted #ccc;
+
+    padding:0.5cm;
+    position: relative;
+}
+
+@media print {
+    body, page[size="A4-landscape"], page[size="A4"]  {
+        margin: 0 ;
+ 
+    }
+    page[size="A4-landscape"], page[size="A4"]  {
+    	box-shadow: 0 !important;
+        border: 0;
+    }
+    
+}
+

@@ -1,0 +1,20 @@
+.pl-monitor-hc-list .tb-tools {
+	width:100%;
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+.pl-monitor-hc-list .tb_list {
+	border-collapse:collapse;
+	font-size:11px;
+}
+
+.pl-monitor-hc-list .tb_list th {
+	font-size:12px;
+}
+
+.pl-monitor-hc-list .tb-tools select {
+	margin-left:15px;
+	width:190px;
+}
+
